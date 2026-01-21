@@ -1,0 +1,114 @@
+{
+    "properties": {
+        "nogui": false,
+        "background": "rgba(0,0,0,0)"
+    },
+    "colourmaps": [
+        {
+            "colours": [
+                {
+                    "position": 0,
+                    "colour": "rgba(59,76,192,1.00)"
+                },
+                {
+                    "position": 0.117647,
+                    "colour": "rgba(95,127,232,1.00)"
+                },
+                {
+                    "position": 0.235294,
+                    "colour": "rgba(135,171,253,1.00)"
+                },
+                {
+                    "position": 0.352941,
+                    "colour": "rgba(176,203,252,1.00)"
+                },
+                {
+                    "position": 0.5,
+                    "colour": "rgba(220,220,220,1.00)"
+                },
+                {
+                    "position": 0.529412,
+                    "colour": "rgba(228,217,211,1.00)"
+                },
+                {
+                    "position": 0.647059,
+                    "colour": "rgba(246,191,165,1.00)"
+                },
+                {
+                    "position": 0.764706,
+                    "colour": "rgba(243,149,118,1.00)"
+                },
+                {
+                    "position": 0.882353,
+                    "colour": "rgba(221,94,75,1.00)"
+                },
+                {
+                    "position": 1,
+                    "colour": "rgba(181,11,39,1.00)"
+                }
+            ]
+        }
+    ],
+    "views": [
+        {
+            "axes": false,
+            "border": true,
+            "translate": [
+                -0.08487048957087459, 0.0311769145362398, -0.8660254037844388
+            ],
+            "rotate": [
+                -0.9347577095031738, 0.15519997477531433, -0.11142060905694962,
+                -0.2992938458919525
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "name": "volume",
+            "samples": 256,
+            "isovalue": 0.5955538595750168,
+            "isowalls": true,
+            "isoalpha": 1,
+            "isosmooth": 0.65,
+            "colour": [119, 81, 46],
+            "density": 2.5,
+            "power": 1,
+            "colourmap": 0,
+            "tricubicfilter": false,
+            "zmin": 0,
+            "zmax": 0.95,
+            "ymin": 0,
+            "ymax": 1,
+            "xmin": 0,
+            "xmax": 1,
+            "brightness": -0.11780890196982163,
+            "contrast": 1,
+            "volume": {
+                "url": "scene/sdata/demo_000.raw.jpg",
+                "autoscale": true,
+                "res": [400, 100, 100],
+                "scale": [1, 1, 1]
+            },
+            "cesium": {
+                "rotate": [0.0, -1.5, 168.5],
+                "translate": [50, 30.5, -55],
+                "scale": [0.005, 0.0125, 0.0125]
+            },
+            "slices": {
+                "properties": {
+                    "show": true,
+                    "X": 98,
+                    "Y": 55,
+                    "Z": 75,
+                    "brightness": 0,
+                    "contrast": 1,
+                    "power": 1,
+                    "usecolourmap": true,
+                    "layout": "x|y|z-",
+                    "zoom": 0.85
+                }
+            },
+            "saturation": 1
+        }
+    ]
+}

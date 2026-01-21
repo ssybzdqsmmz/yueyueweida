@@ -1,0 +1,80 @@
+{
+  "properties": {
+    "nogui": true,
+    "background": "rgba(81,77,74,0.00)"
+  },
+  "colourmaps": [
+    {
+      "colours": [
+        {
+          "position": 0.0,
+          "colour": "rgba(187,199,199,1)"
+        },
+        {
+          "position": 0.5,
+          "colour": "rgba(52,58,138,1.0)"
+        },
+        {
+          "position": 1.0,
+          "colour": "rgba(60,28,33,1.0)"
+        }
+      ]
+    }
+  ],
+  "views": [
+    {
+      "axes": false,
+      "border": false,
+      "translate": [-0.05715767664977255, -0.031176914536239782, -1.6454482671904334],
+      "rotate": [0.5536984801292419, 0.1137750968337059, -0.7585440278053284, 0.32404208183288574]
+    }
+  ],
+  "objects": [
+    {
+      "name": "volume",
+      "samples": 256,
+      "isovalue": 0.85,
+      "isowalls": true,
+      "isoalpha": 1.0,
+      "isosmooth": 1.0,
+      "colour": [60, 28, 33],
+      "density": 3,
+      "power": 1,
+      "colourmap": 0,
+      "tricubicfilter": false,
+      "zmin": 0,
+      "zmax": 1,
+      "ymin": 0,
+      "ymax": 1,
+      "xmin": 0,
+      "xmax": 1,
+      "brightness": 0.08780890196982163,
+      "contrast": 1,
+      "volume": {
+        "url": "scene/sdata/posui0112.jpg",
+
+        "res": [61, 61, 50],
+        "scale": [1, 1, 1]
+      },
+      "cesium": {
+        "rotate": [0.0, 90, 168],
+        "translate": [30, 30, 50],
+        "scale": [0.0125, 0.0125, 0.0075]
+      },
+      "slices": {
+        "properties": {
+          "show": false,
+          "X": 155,
+          "Y": 65,
+          "Z": 55,
+          "brightness": 1,
+          "contrast": 1,
+          "power": 1,
+          "usecolourmap": true,
+          "layout": "x|y|z",
+          "zoom": 0.6683351069050206
+        }
+      }
+    }
+  ]
+}

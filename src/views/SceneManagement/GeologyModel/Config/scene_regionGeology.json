@@ -1,0 +1,118 @@
+[
+  {
+    "id": "",
+    "uid": "277bc1f5b2e84c209ae010b7d9681e01",
+    "name": "区域地质",
+    "version": "1.0",
+    "customProperty": "CZ",
+    "createTime": "2021-05-13 14:41:02"
+  },
+  {
+    "name": "昌都至林芝地层模型",
+    "visible": true,
+    "datastore": "Geology",
+    "type": 2,
+    "modelType": 0,
+    "url": "FullLine/GEOLOGY/3dtiles/地层特征_分块_20W_3dtiles/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "昌都至林芝断裂带",
+    "visible": false,
+    "datastore": "Geology",
+    "type": 2,
+    "modelType": 0,
+    "url": "FullLine/GEOLOGY/3dtiles/昌都至林芝断裂模型/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "西藏段地质模型",
+    "visible": false,
+    "datastore": "Geology",
+    "type": 2,
+    "modelType": 0,
+    "url": "FullLine/GEOLOGY/3dtiles/西藏_区域地质模型/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "西藏段断裂",
+    "visible": false,
+    "datastore": "Geology",
+    "type": 2,
+    "modelType": 0,
+    "url": "FullLine/GEOLOGY/3dtiles/两隧两桥_西藏段断裂/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "雅安_区域地质模型",
+    "visible": false,
+    "datastore": "Geology",
+    "type": 2,
+    "modelType": 0,
+    "url": "FullLine/GEOLOGY/3dtiles/雅安_区域地质模型/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "天全地层模型",
+    "visible": false,
+    "datastore": "Geology",
+    "type": 2,
+    "modelType": 0,
+    "url": "CZSCZQ-4/GEOLOGY/3dtiles/天全-地层模型/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "孜河-地层模型",
+    "visible": false,
+    "datastore": "Geology",
+    "type": 2,
+    "modelType": 0,
+    "url": "FullLine/GEOLOGY/3dtiles/孜河-地层模型/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "康定_区域地质模型",
+    "visible": false,
+    "datastore": "Geology",
+    "type": 2,
+    "modelType": 0,
+    "url": "FullLine/GEOLOGY/3dtiles/康定_区域地质模型/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "雅安_康定段断裂带",
+    "visible": false,
+    "datastore": "Geology",
+    "type": 2,
+    "modelType": 0,
+    "url": "FullLine/GEOLOGY/3dtiles/雅康段断裂/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  }
+]

@@ -1,0 +1,432 @@
+.roam-edit {
+  /* Auto layout */
+  display: flex;
+  position: absolute;
+  top: 75px;
+  left: 284px;
+  z-index: 1;
+  width: 382px;
+  height: 322px;
+
+  /* Frame 17669 */
+
+  box-sizing: content-box;
+  padding: 1px;
+  border: 1px solid rgb(134 203 255 / 30%);
+  flex-direction: column;
+  align-items: flex-end;
+
+  /* color/background/page4 */
+  background: rgb(17 37 54 / 92%);
+
+  /* 投影/0-2-10-0.6 */
+  box-shadow: 0 2px 10px rgb(6 24 37 / 60%);
+  gap: 11px;
+
+  .roam-title-bg {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: url('../../Assets/roam/frame-title-bg.svg') no-repeat;
+
+    .content {
+      height: 19px;
+      padding: 0 12px;
+      flex-direction: row;
+      line-height: 40px;
+      font-size: 16px;
+      font-weight: 500;
+      color: rgb(211 236 255 / 100%);
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 10px;
+      width: 16px;
+      height: 16px;
+      margin: 0 auto;
+      background: url('../../Assets/roam/frame-title-close.svg') no-repeat;
+      background-size: 100% 100%;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .roam-body {
+    width: 100%;
+    padding: 0 12px;
+
+    .add {
+      display: flex;
+      width: 100%;
+      height: 32px;
+      padding: 0 10px;
+
+      /* color/button/border-primary */
+      border: 1px solid rgb(31 151 242 / 70%);
+      border-radius: 2px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      text-align: center;
+
+      /* color/button/gradation */
+      background: linear-gradient(180deg, #1a7dca 0%, #0b253a 100%);
+      gap: 4px;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &-icon {
+        width: 16px;
+        height: 16px;
+        background: url('../../Assets/roam/frame-add.svg') no-repeat;
+        background-size: 100%;
+        background-position: center center;
+      }
+
+      span {
+        height: 100%;
+        line-height: 32px;
+        vertical-align: middle;
+      }
+    }
+
+    .descrip {
+      width: 100%;
+      margin: 16px 0;
+
+      .frane-title {
+        height: 16px;
+        width: 100%;
+        margin-bottom: 10px;
+
+        span:nth-child(1) {
+          float: left;
+        }
+
+        span:nth-child(2) {
+          float: right;
+        }
+      }
+
+      .frame-body {
+        display: flex;
+        width: 100%;
+        height: 88px;
+
+        /* 帧漫游 */
+
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        padding: 12px;
+
+        /* color/border/primary */
+        border: 1px solid #10406a;
+        border-radius: 2px;
+        flex-direction: column;
+        justify-content: space-between;
+
+        /* color/background/secondary */
+        background: rgb(7 45 72 / 80%);
+
+        .frame-body-title {
+          width: 100%;
+          height: 20px;
+          text-align: left;
+
+          // background-color: pink;
+
+          .edit-btn {
+            float: right;
+            width: 20px;
+            height: 20px;
+            background: url('../../Assets/roam/frame-edit.svg') no-repeat;
+
+            &:hover {
+              cursor: pointer;
+            }
+          }
+
+          .delete-btn {
+            float: right;
+            width: 20px;
+            height: 20px;
+            margin-left: 5px;
+            background: url('../../Assets/roam/frame-delete.svg') no-repeat;
+
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+
+        .frame-timeline {
+          display: flex;
+          flex-basis: auto;
+          width: 100%;
+          height: 32px;
+
+          // justify-content: space-around;
+          align-items: center;
+
+          .play-btn {
+            width: 32px;
+            height: 100%;
+            background: url('../../Assets/roam/frame-play.svg') no-repeat;
+
+            &:hover {
+              cursor: pointer;
+            }
+          }
+
+          .circle-status {
+            width: 32px;
+            height: 100%;
+            margin-left: 10px;
+            background: url('../../Assets/roam/frame-circle-status.svg') no-repeat;
+          }
+
+          .scroll-bar {
+            position: relative;
+            width: 148px;
+            height: 6px;
+            margin: 0 12px;
+            border: 1px solid rgb(21 75 122 / 100%);
+
+            &-valid {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 0; // 默认值为0
+              height: 6px;
+              border-radius: 2px;
+              background: linear-gradient(90deg, #58b1ff 0%, #0088ff 98.28%);
+            }
+
+            border-radius: 2px;
+            background: rgb(16 44 71 / 100%);
+
+            &-btn {
+              position: absolute;
+              right: 0;
+              top: 50%;
+              transform: translate(50%, -50%);
+              width: 12px;
+              height: 12px;
+              background: url('../../Assets/roam/frame-scroll-bar.svg') no-repeat;
+              background-size: 160% 160%;
+              background-position: center center;
+
+							&:hover {
+								cursor: move;
+							}
+            }
+          }
+
+          .el-checkbox {
+            margin-left: auto;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.roam-path {
+  top: 75px;
+  left: 671px;
+  width: 367px;
+  height: 366px;
+}
+
+.roam-body {
+  .notion {
+    display: flex;
+    width: 100%;
+    height: 22px;
+    margin-bottom: 16px;
+    padding: 4px 12px;
+    border-radius: 67px;
+    align-items: center;
+    color: rgb(9 227 241 / 100%);
+    background: rgb(9 227 241 / 10%);
+
+    &-icon {
+      width: 14px;
+      height: 14px;
+      margin-right: 3px;
+      background: url('../../Assets/roam/notion.svg') no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+  }
+
+  .edit-path-name {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 32px;
+    margin-bottom: 10px;
+    line-height: 32px;
+    font-size: 14px;
+
+    // background-color: pink;
+    .scale-label {
+      position: absolute;
+      right: 20px;
+      line-height: 32px;
+      font-size: 11px;
+      color: rgb(55 115 160 / 100%);
+    }
+
+    input {
+      flex-grow: 1;
+      width: auto;
+      height: 32px;
+      margin-left: 12px;
+      padding: 10px;
+      border: 1px solid rgb(16 64 106 / 100%);
+      border-radius: 2px;
+      color: white;
+      background: rgb(7 45 72 / 80%);
+
+      &::placeholder {
+        color: rgb(55 115 160 / 100%);
+      }
+
+      &:focus {
+        outline: 1px solid rgb(31 151 242 / 30%);
+      }
+    }
+
+    .input-label {
+      padding: 10px 45px 10px 10px;
+    }
+  }
+
+  .descrip {
+    .frame-viewport-body {
+      display: flex;
+      width: 341px;
+      height: 64px;
+      margin-bottom: 10px;
+      padding: 8px 16px 8px 0;
+      border: 1px solid rgb(16 69 119 / 90%);
+      border-radius: 6px;
+      align-items: center;
+      background: rgb(7 45 72 / 80%);
+
+      .frame-viewport {
+        display: flex;
+        flex-grow: 1; // 不设置固定宽度，让其随着字体长度膨胀
+        height: 48px;
+        align-items: center;
+
+        .left-icon {
+          width: 24px;
+          height: 24px;
+          background: url('../../Assets/roam/frame-viewport-left-icon.svg') no-repeat;
+          background-size: cover;
+        }
+
+        img {
+          width: 64px;
+          height: 48px;
+          border-radius: 6px;
+          background-color: pink;
+        }
+
+        .right-title {
+          margin-left: 16px;
+          font-size: 16px;
+          font-weight: 500;
+        }
+      }
+
+      .edit-icon-container {
+        display: flex;
+        width: 92px;
+        height: 100%;
+        margin-left: auto;
+        align-items: center;
+        gap: 16px;
+
+        span {
+          width: 20px;
+          height: 20px;
+        }
+
+        .navigation {
+          background: url('../../Assets/roam/frame-navigation.svg') no-repeat;
+          background-size: 100% 100%;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        .adjust {
+          background: url('../../Assets/roam/frame-viewport-adjust.svg') no-repeat;
+          background-size: 100% 100%;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        .delete {
+          background: url('../../Assets/roam/frame-delete.svg') no-repeat;
+          background-size: 100% 100%;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+.roam-viewport {
+  top: 75px;
+  left: 1043px;
+  width: 367px;
+  height: 228px;
+}
+
+.btn-group {
+  display: flex;
+  width: 100%;
+  height: 28px;
+  justify-content: flex-end;
+
+  div {
+    width: 76px;
+    height: 28px;
+    border: 1px solid rgb(31 151 242 / 30%);
+    line-height: 28px;
+    text-align: center;
+    background: url('../../Assets/roam/cancel.svg') no-repeat;
+    background-size: cover;
+    background-color: linear-gradient(0deg, rgb(3 33 57 / 80%), rgb(3 33 57 / 80%)),
+      linear-gradient(180deg, rgb(31 151 242 / 32%) 0%, rgb(31 151 242 / 0%) 100%);
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  div:nth-child(2) {
+    margin-left: 8px;
+    border: 1px solid rgb(31 151 242 / 70%);
+    background: linear-gradient(180deg, #1a7dca 0%, #0b253a 100%);
+  }
+}

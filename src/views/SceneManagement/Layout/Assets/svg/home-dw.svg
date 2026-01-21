@@ -1,0 +1,53 @@
+<<<<<<< HEAD
+<svg xmlns="http://www.w3.org/2000/svg" width="32.253" height="30.318" viewBox="0 0 32.253 30.318">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: currentColor;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 0.946px;
+      }
+
+      .cls-2 {
+        fill: #19ffec;
+      }
+    </style>
+  </defs>
+  <g id="定位-默认框" transform="translate(-42 -147.274)">
+    <g id="组_535" data-name="组 535" transform="translate(-2156.634)">
+      <path id="路径_683" data-name="路径 683" class="cls-1" d="M2224.382,155.161l-12.6-7.34-12.637,7.272-.04,14.612,12.6,7.34,12.637-7.272Z"/>
+    </g>
+    <g id="组_536" data-name="组 536" transform="translate(-2156.634)">
+      <path id="路径_684" data-name="路径 684" class="cls-2" d="M2230.887,164.655l-2-2.006,2-2.006"/>
+    </g>
+  </g>
+</svg>
+=======
+<svg xmlns="http://www.w3.org/2000/svg" width="32.253" height="30.318" viewBox="0 0 32.253 30.318">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: currentColor;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 0.946px;
+      }
+
+      .cls-2 {
+        fill: #19ffec;
+      }
+    </style>
+  </defs>
+  <g id="定位-默认框" transform="translate(-42 -147.274)">
+    <g id="组_535" data-name="组 535" transform="translate(-2156.634)">
+      <path id="路径_683" data-name="路径 683" class="cls-1" d="M2224.382,155.161l-12.6-7.34-12.637,7.272-.04,14.612,12.6,7.34,12.637-7.272Z"/>
+    </g>
+    <g id="组_536" data-name="组 536" transform="translate(-2156.634)">
+      <path id="路径_684" data-name="路径 684" class="cls-2" d="M2230.887,164.655l-2-2.006,2-2.006"/>
+    </g>
+  </g>
+</svg>
+>>>>>>> e9188f40dfb631b96c24c0ac818ec16c61277c0c

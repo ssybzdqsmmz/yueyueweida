@@ -1,0 +1,20 @@
+<svg width="46" height="230" viewBox="0 0 46 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="8" width="6" height="1" fill="#86CBFF" fill-opacity="0.3"/>
+<rect x="35" y="230" width="6" height="1" transform="rotate(180 35 230)" fill="#86CBFF" fill-opacity="0.3"/>
+<rect x="16" width="26" height="1" fill="#86CBFF" fill-opacity="0.3"/>
+<rect x="25" y="230" width="21" height="1" transform="rotate(180 25 230)" fill="#86CBFF" fill-opacity="0.3"/>
+<rect y="16" width="1" height="210" fill="#86CBFF" fill-opacity="0.5"/>
+<rect y="8" width="1" height="6" fill="#86CBFF" fill-opacity="0.3"/>
+<rect y="17" width="1" height="6" fill="#86CBFF" fill-opacity="0.7"/>
+<rect y="90" width="1" height="6" fill="#98D3FF"/>
+<rect y="163" width="1" height="6" fill="#86CBFF" fill-opacity="0.7"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6 0H1.5H0V1.5V6H1.5L1.5 1.5H6V0Z" fill="#BCE2FF"/>
+<rect width="1" height="6" transform="matrix(-1 8.74228e-08 8.74228e-08 1 46 216)" fill="#86CBFF" fill-opacity="0.3"/>
+<path d="M43.5 0H46V2.5H43.5V0Z" fill="#FFBA00"/>
+<rect x="45" y="4" width="1" height="210" fill="#86CBFF" fill-opacity="0.5"/>
+<rect x="45" y="129" width="1" height="4" fill="#98D3FF"/>
+<rect x="45" y="152" width="1" height="4" fill="#86CBFF" fill-opacity="0.7"/>
+<rect x="45" y="175" width="1" height="4" fill="#98D3FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M40 230L44.5 230L46 230L46 228.5L46 224L44.5 224L44.5 228.5L40 228.5L40 230Z" fill="#BCE2FF"/>
+<path d="M0 227.5H2.5V230H0V227.5Z" fill="#FFBA00"/>
+</svg>

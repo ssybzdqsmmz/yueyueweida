@@ -1,0 +1,59 @@
+// 目录树样式
+.layers {
+  display: flex;
+  height: 1.5em;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  cursor: default;
+}
+
+.content-layers {
+  display: none;
+  font-size: 16px;
+}
+
+// 中间层
+.root-layers-img {
+  width: 1.6em;
+  height: 1.6em;
+  background-position: center;
+  background-size: 100% 100%;
+  background-image: url('../images/close.svg');
+  transition: all 0.2s ease-out;
+  pointer-events: none;
+
+  // transform: rotate(90deg);
+}
+
+.root-layers {
+  // padding-left: 1em;
+  font-size: 20px;
+  background-color: rgb(18 41 70 / 50%);
+}
+
+.root-layers-span {
+  color: #5ec9db;
+  pointer-events: none;
+}
+
+// 叶子层
+.job-layers {
+  width: 150px;
+  margin: 10px; /* 控制按钮上下间隔 */
+  padding: 10px;
+  border: 2px solid rgb(8 175 164 / 83%); /* 蓝绿色边框 */
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  background-color: black; /* 黑色按钮背景 */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.job-layers:hover,
+.job-layers-choose {
+  color: white; /* 文字颜色保持白色 */
+  background-color: rgb(8 175 164 / 83%); /* 点击或悬停时填充蓝绿色 */
+}

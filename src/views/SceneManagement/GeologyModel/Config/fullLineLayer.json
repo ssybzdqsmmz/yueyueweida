@@ -1,0 +1,47 @@
+[
+  {
+    "name": "全国100万地质图",
+    "visible": true,
+    "datastore": "DDH/DOM",
+    "type": 0,
+    "serviceType": 1,
+    "url": "FullLine/GEOLOGY/imagetile/czdtsw",
+    "lat": 29.5721865,
+    "lon": 94.463238,
+    "maximumLevel": 19,
+    "minimumLevel": 0,
+    "tilingScheme": 0,
+    "format": "png",
+    "index": 99
+  },
+  {
+    "name": "全国150万地质图",
+    "visible": true,
+    "datastore": "DDH/DOM",
+    "type": 0,
+    "serviceType": 1,
+    "url": "FullLine/GEOLOGY/imagetile/czdtsw",
+    "lat": 29.5721865,
+    "lon": 94.463238,
+    "maximumLevel": 19,
+    "minimumLevel": 0,
+    "tilingScheme": 0,
+    "format": "png",
+    "index": 99
+  },
+  {
+    "name": "全国250万地质图",
+    "visible": true,
+    "datastore": "DDH/DOM",
+    "type": 0,
+    "serviceType": 1,
+    "url": "FullLine/GEOLOGY/imagetile/czdtsw",
+    "lat": 29.5721865,
+    "lon": 94.463238,
+    "maximumLevel": 19,
+    "minimumLevel": 0,
+    "tilingScheme": 0,
+    "format": "png",
+    "index": 99
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "地名路段",
+    "visible": false,
+    "url": "FullLine/Line/kml/地名路段.kml"
+  },
+  {
+    "name": "沿线车站点",
+    "visible": false,
+    "url": "FullLine/Line/kml/沿线车站点.kml"
+  }
+]

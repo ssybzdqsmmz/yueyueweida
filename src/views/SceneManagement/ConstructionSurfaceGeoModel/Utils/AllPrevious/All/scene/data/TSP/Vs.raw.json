@@ -1,0 +1,139 @@
+{
+  "properties": {
+    "nogui": true,
+    "background": "rgba(81,77,74,0.00)"
+  },
+  "colourmaps": [
+    {
+      "colours": [
+        {
+          "position": 0,
+          "colour": "rgba(0,0,0,1.0)"
+        },
+        {
+          "position": 0.058,
+          "colour": "rgba(85,0,170,1.0)"
+        },
+        {
+          "position": 0.117,
+          "colour": "rgba(5,0,90,1.0)"
+        },
+        {
+          "position": 0.176,
+          "colour": "rgba(0,0,159,1.0)"
+        },
+        {
+          "position": 0.235,
+          "colour": "rgba(0,0,239,1.0)"
+        },
+        {
+          "position": 0.294,
+          "colour": "rgba(0,63,255,1.0)"
+        },
+        {
+          "position": 0.352,
+          "colour": "rgba(0,143,196,1.0)"
+        },
+        {
+          "position": 0.411,
+          "colour": "rgba(0,223,170,1.0)"
+        },
+        {
+          "position": 0.47,
+          "colour": "rgba(0,255,74,1.0)"
+        },
+        {
+          "position": 0.529,
+          "colour": "rgba(42,255,42,1.0)"
+        },
+        {
+          "position": 0.588,
+          "colour": "rgba(159,255,47,1.0)"
+        },
+        {
+          "position": 0.647,
+          "colour": "rgba(255,223,0,1.0)"
+        },
+        {
+          "position": 0.706,
+          "colour": "rgba(255,143,0,1.0)"
+        },
+        {
+          "position": 0.764,
+          "colour": "rgba(255,71,0,1.0)"
+        },
+        {
+          "position": 0.823,
+          "colour": "rgba(255,22,0,1.0)"
+        },
+        {
+          "position": 0.882,
+          "colour": "rgba(237,0,0,1.0)"
+        },
+        {
+          "position": 0.941,
+          "colour": "rgba(203,0,0,1.0)"
+        },
+        {
+          "position": 1.0,
+          "colour": "rgba(0,0,0,1.0)"
+        }
+      ]
+    }
+  ],
+  "views": [
+    {
+      "axes": false,
+      "border": false,
+      "translate": [-0.05715767664977255, -0.031176914536239782, -1.6454482671904334],
+      "rotate": [0.5536984801292419, 0.1137750968337059, -0.7585440278053284, 0.32404208183288574]
+    }
+  ],
+  "objects": [
+    {
+      "name": "volume",
+      "samples": 256,
+      "isovalue": 0.0,
+      "isowalls": false,
+      "isoalpha": 1,
+      "isosmooth": 0.5,
+      "colour": [255, 245.46299999999997, 226.95000000000002],
+      "density": 5,
+      "power": 1,
+      "colourmap": 0,
+      "tricubicfilter": false,
+      "zmin": 0,
+      "zmax": 1,
+      "ymin": 0,
+      "ymax": 1,
+      "xmin": 0,
+      "xmax": 1,
+      "brightness": -0.11780890196982163,
+      "contrast": 1,
+      "volume": {
+        "url": "Vs.raw.jpg",
+        "res": [400, 100, 100],
+        "scale": [1, 1, 1]
+      },
+      "cesium": {
+        "rotate": [0.0, -1.5, 168.5],
+        "translate": [50, 30.5, -55],
+        "scale": [0.005, 0.0125, 0.0125]
+      },
+      "slices": {
+        "properties": {
+          "show": false,
+          "X": 155,
+          "Y": 65,
+          "Z": 55,
+          "brightness": 0,
+          "contrast": 1,
+          "power": 1,
+          "usecolourmap": true,
+          "layout": "x|y|z",
+          "zoom": 0.6683351069050206
+        }
+      }
+    }
+  ]
+}

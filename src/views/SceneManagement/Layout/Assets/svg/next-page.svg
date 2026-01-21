@@ -1,0 +1,57 @@
+<<<<<<< HEAD
+<svg xmlns="http://www.w3.org/2000/svg" width="21.207" height="42.414" viewBox="0 0 21.207 42.414">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #34d5cf;
+      }
+
+      .cls-2 {
+        opacity: 0.2;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #b5e1ea;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="下一页" transform="translate(0.5 1.207)">
+    <g id="组_656" data-name="组 656" transform="translate(0 5)">
+      <path id="路径_797" data-name="路径 797" class="cls-1" d="M780.006-3082.971l-15,15v-10l5-5-5-5v-10Z" transform="translate(-765.006 3097.971)"/>
+    </g>
+    <g id="组_657" data-name="组 657" class="cls-2">
+      <path id="路径_798" data-name="路径 798" class="cls-3" d="M765.006-3112.972l20,20-20,20Z" transform="translate(-765.006 3112.972)"/>
+    </g>
+  </g>
+</svg>
+=======
+<svg xmlns="http://www.w3.org/2000/svg" width="21.207" height="42.414" viewBox="0 0 21.207 42.414">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #34d5cf;
+      }
+
+      .cls-2 {
+        opacity: 0.2;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #b5e1ea;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="下一页" transform="translate(0.5 1.207)">
+    <g id="组_656" data-name="组 656" transform="translate(0 5)">
+      <path id="路径_797" data-name="路径 797" class="cls-1" d="M780.006-3082.971l-15,15v-10l5-5-5-5v-10Z" transform="translate(-765.006 3097.971)"/>
+    </g>
+    <g id="组_657" data-name="组 657" class="cls-2">
+      <path id="路径_798" data-name="路径 798" class="cls-3" d="M765.006-3112.972l20,20-20,20Z" transform="translate(-765.006 3112.972)"/>
+    </g>
+  </g>
+</svg>
+>>>>>>> e9188f40dfb631b96c24c0ac818ec16c61277c0c

@@ -1,0 +1,911 @@
+[
+  {
+    "Fault_Name": "Bayirong_Fault",
+    "fault_ch": "八依绒断层",
+    "fault_wide": "",
+    "Faultplanedip": "80",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Dahaizi_Fault1",
+    "fault_ch": "大海子断层",
+    "fault_wide": "",
+    "Faultplanedip": "45-60",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Jida_Fault",
+    "fault_ch": "鸡打断层",
+    "fault_wide": "",
+    "Faultplanedip": "80",
+    "Faultlineorientation": "SN",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Kuxirong_Fault1",
+    "fault_ch": "库西绒断层",
+    "fault_wide": "",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "SN",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Ludi_Fault",
+    "fault_ch": "泸底断层",
+    "fault_wide": "",
+    "Faultplanedip": "65",
+    "Faultlineorientation": "SN",
+    "polarity": "1",
+    "Natureoffracture": "正断层"
+  },
+  {
+    "Fault_Name": "Maojiawan_Fault2",
+    "fault_ch": "毛家湾断层",
+    "fault_wide": "",
+    "Faultplanedip": "65-75",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Rimomo_Fault",
+    "fault_ch": "日莫莫断层",
+    "fault_wide": "",
+    "Faultplanedip": "80",
+    "Faultlineorientation": "SW-NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Tanggang_Fault",
+    "fault_ch": "唐岗断层",
+    "fault_wide": "",
+    "Faultplanedip": "60",
+    "Faultlineorientation": "NE",
+    "polarity": "1",
+    "Natureoffracture": "正断层"
+  },
+  {
+    "Fault_Name": "Cima_Fault",
+    "fault_ch": "茨马断层",
+    "fault_wide": "",
+    "Faultplanedip": "45-57",
+    "Faultlineorientation": "NE",
+    "polarity": "1",
+    "Natureoffracture": "正断层"
+  },
+  {
+    "Fault_Name": "Woluo_Fault",
+    "fault_ch": "沃洛断层",
+    "fault_wide": "",
+    "Faultplanedip": "45",
+    "Faultlineorientation": "NNE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Yidai_Fault",
+    "fault_ch": "宜代断层",
+    "fault_wide": "",
+    "Faultplanedip": "35",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Yulingong_Fault",
+    "fault_ch": "愉林宫断层",
+    "fault_wide": "",
+    "Faultplanedip": "75",
+    "Faultlineorientation": "NNW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Yulongxi_fault",
+    "fault_ch": "玉龙希断层",
+    "fault_wide": "",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NNE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Zhangjia_Fault2",
+    "fault_ch": "张家断层",
+    "fault_wide": "",
+    "Faultplanedip": "40-50",
+    "Faultlineorientation": "NNW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Beimushan_HuxingChongFault1",
+    "fault_ch": "贝母山弧形冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "60-70",
+    "Faultlineorientation": "NW-NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Changchang_ChongFault",
+    "fault_ch": "昌昌冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "60-70",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Changheba_HuxingChongFault1",
+    "fault_ch": "长河坝弧形冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "60-70",
+    "Faultlineorientation": "NW-NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Chuantianpo_HuxingChongFault",
+    "fault_ch": "穿天坡弧形冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "60-70",
+    "Faultlineorientation": "NW-NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Dacaotang_HuxingChongFault1",
+    "fault_ch": "大草塘弧形冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "60-70",
+    "Faultlineorientation": "NW-NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Dashiban_ChongFault",
+    "fault_ch": "大石板冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "67",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Eerji_Fault",
+    "fault_ch": "鹅儿基断裂",
+    "fault_wide": "0",
+    "Faultplanedip": "50",
+    "Faultlineorientation": "NW",
+    "polarity": "1",
+    "Natureoffracture": "正断层"
+  },
+  {
+    "Fault_Name": "Ganyanggou_ChongFault2",
+    "fault_ch": "赶羊沟冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "60-70",
+    "Faultlineorientation": "NE45",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Guadagou_ChongFault",
+    "fault_ch": "瓜达沟冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "60-70",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Guiqiangwan_HuxingChongFault3",
+    "fault_ch": "贵强湾弧形冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "60-70",
+    "Faultlineorientation": "NW-NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Heixuangou_HuxingChongFault",
+    "fault_ch": "黑旋沟弧形冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "60-70",
+    "Faultlineorientation": "NW-NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Hongfeng_ChongFault3",
+    "fault_ch": "红峰冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Jinpengshan_HuxingChongFault",
+    "fault_ch": "金棚山弧形冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "60-70",
+    "Faultlineorientation": "NW-NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Jiubenliu_HuxingChongFault1",
+    "fault_ch": "九奔流弧形冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "60-70",
+    "Faultlineorientation": "NW-NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Metangzi_ChongFault3",
+    "fault_ch": "么堂子冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NE45",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Qingcaotang_HuxingChongFault1",
+    "fault_ch": "青草塘弧形冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "60-70",
+    "Faultlineorientation": "NW-NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Shiyang_ChongFault1",
+    "fault_ch": "始阳冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NE25",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Shuangshi_ChongFault1",
+    "fault_ch": "双石冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "45-65",
+    "Faultlineorientation": "NE43",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Wulong_ChongFault1",
+    "fault_ch": "五龙冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "68-70",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Xiaoguanzi_ChongFault",
+    "fault_ch": "小关子冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Xinkaidian_ChongFault",
+    "fault_ch": "新开店冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "18",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Yanjing_ChongFault1",
+    "fault_ch": "盐井冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "60-70",
+    "Faultlineorientation": "NE43",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Zhongba_ChongFault",
+    "fault_ch": "中坝冲断层",
+    "fault_wide": "0",
+    "Faultplanedip": "80-90",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "F11_1_fault_Model",
+    "fault_ch": "F11_1断裂面",
+    "fault_wide": "",
+    "Faultplanedip": "75",
+    "Faultlineorientation": "SE172",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "F12_fault_Model",
+    "fault_ch": "F12断裂面",
+    "fault_wide": "",
+    "Faultplanedip": "65",
+    "Faultlineorientation": "NE13",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "F13-1Jieyi_fault_Model_jiaozheng",
+    "fault_ch": "F13_1解译断裂面",
+    "fault_wide": "",
+    "Faultplanedip": "40",
+    "Faultlineorientation": "NE76",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "FRS111-1JieyiFault",
+    "fault_ch": "FRS111-1解译断裂面",
+    "fault_wide": "",
+    "Faultplanedip": "75",
+    "Faultlineorientation": "NE75",
+    "polarity": "1",
+    "Natureoffracture": "正断层"
+  },
+  {
+    "Fault_Name": "Tangniba_fault",
+    "fault_ch": "塘泥坝断裂面",
+    "fault_wide": "",
+    "Faultplanedip": "40",
+    "Faultlineorientation": "SE103",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Huiyuansi_Leijipu_Fault3",
+    "fault_ch": "慧远寺-勒吉普断裂面3段",
+    "fault_wide": "",
+    "Faultplanedip": "65",
+    "Faultlineorientation": "NW-SE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Bamei_Fault_1",
+    "fault_ch": "八美断裂_1",
+    "fault_wide": "0",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Bamei_Fault_2",
+    "fault_ch": "八美断裂_2",
+    "fault_wide": "0",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Baoxinchang_Huangyi_Fault_1",
+    "fault_ch": "保新厂-凰仪断裂_1",
+    "fault_wide": ">1000",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "320",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Baoxinchang_Huangyi_Fault_2",
+    "fault_ch": "保新厂-凰仪断裂_2",
+    "fault_wide": ">1001",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "320",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Baoxinchang_Huangyi_Fault_3",
+    "fault_ch": "保新厂-凰仪断裂_3",
+    "fault_wide": ">1002",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "320",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Benglonggou-Sishuitang_Fault",
+    "fault_ch": "崩龙沟－泗水塘断裂",
+    "fault_wide": "0",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Caoke_Fault_1",
+    "fault_ch": "草科断裂_1",
+    "fault_wide": ">500",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "0-19",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Caoke_Fault_2",
+    "fault_ch": "草科断裂_2",
+    "fault_wide": ">500",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "0-20",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Dagoutou_Fault_1",
+    "fault_ch": "大沟头断裂_1",
+    "fault_wide": "0",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "285",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Dagoutou_Fault_2",
+    "fault_ch": "大沟头断裂_2",
+    "fault_wide": "0",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "285",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Dagoutou_Fault_3",
+    "fault_ch": "大沟头断裂_3",
+    "fault_wide": "0",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "285",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "daxueshan-nonggeshan_fault",
+    "fault_ch": "大雪山－农戈山断裂",
+    "fault_wide": "0",
+    "Faultplanedip": "50",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Duoerjincuo-Longgu_Fault_1",
+    "fault_ch": "多尔金措－龙古断裂_1",
+    "fault_wide": "0",
+    "Faultplanedip": "40",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Duoerjincuo-Longgu_Fault_2",
+    "fault_ch": "多尔金措－龙古断裂_2",
+    "fault_wide": "0",
+    "Faultplanedip": "40",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Duoerjincuo-Longgu_Fault_3",
+    "fault_ch": "多尔金措－龙古断裂_3",
+    "fault_wide": "0",
+    "Faultplanedip": "40",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Duoerjincuo-Longgu_Fault_4",
+    "fault_ch": "多尔金措－龙古断裂_4",
+    "fault_wide": "0",
+    "Faultplanedip": "40",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Duoerjincuo-Longgu_Fault_5",
+    "fault_ch": "多尔金措－龙古断裂_5",
+    "fault_wide": "0",
+    "Faultplanedip": "40",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Ertaizi_Fault1",
+    "fault_ch": "二台子断裂_1",
+    "fault_wide": "0",
+    "Faultplanedip": "60",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆-平移断层"
+  },
+  {
+    "Fault_Name": "Ertaizi_Fault2",
+    "fault_ch": "二台子断裂_2",
+    "fault_wide": "0",
+    "Faultplanedip": "60",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆-平移断层"
+  },
+  {
+    "Fault_Name": "Honghua_Fault_1",
+    "fault_ch": "红花断裂_1",
+    "fault_wide": "0",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "335",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Honghua_Fault_2",
+    "fault_ch": "红花断裂_2",
+    "fault_wide": "0",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "335",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Honghua_Fault_3",
+    "fault_ch": "红花断裂_3",
+    "fault_wide": "0",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "335",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Hongweixiang_Fault",
+    "fault_ch": "红卫乡断裂",
+    "fault_wide": "0",
+    "Faultplanedip": "80",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Huiyuansi_Lejipu_Fault_1",
+    "fault_ch": "惠远寺－勒吉普断裂_1",
+    "fault_wide": "0",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Huiyuansi_Lejipu_Fault_2",
+    "fault_ch": "惠远寺－勒吉普断裂_2",
+    "fault_wide": "0",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Huiyuansi_Lejipu_Fault_3",
+    "fault_ch": "惠远寺－勒吉普断裂_3",
+    "fault_wide": "0",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Huiyuansi_Lejipu_Fault_4",
+    "fault_ch": "惠远寺－勒吉普断裂_4",
+    "fault_wide": "0",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Huiyuansi_Lejipu_Fault_5",
+    "fault_ch": "惠远寺－勒吉普断裂_5",
+    "fault_wide": "0",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Huiyuansi_Lejipu_Fault_6",
+    "fault_ch": "惠远寺－勒吉普断裂_6",
+    "fault_wide": "0",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Jiangdagou_Fault_1",
+    "fault_ch": "江达沟断裂",
+    "fault_wide": "0",
+    "Faultplanedip": "70",
+    "Faultlineorientation": "NW",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Kongliba_Fault",
+    "fault_ch": "孔泥坝断裂",
+    "fault_wide": "0",
+    "Faultplanedip": "60",
+    "Faultlineorientation": "305-310",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Maoniu_Fault_1",
+    "fault_ch": "牦牛断裂_1",
+    "fault_wide": "0",
+    "Faultplanedip": "50",
+    "Faultlineorientation": "330",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Maoniu_Fault_2",
+    "fault_ch": "牦牛断裂_2",
+    "fault_wide": "0",
+    "Faultplanedip": "50",
+    "Faultlineorientation": "330",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Maoniu_Fault_3",
+    "fault_ch": "牦牛断裂_3",
+    "fault_wide": "0",
+    "Faultplanedip": "50",
+    "Faultlineorientation": "330",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Mengqin_Fault",
+    "fault_ch": "孟清断裂",
+    "fault_wide": "0",
+    "Faultplanedip": "65",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "平移断层"
+  },
+  {
+    "Fault_Name": "Paomashan_Fault_1",
+    "fault_ch": "跑马山断裂_1",
+    "fault_wide": "0",
+    "Faultplanedip": "60",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Paomashan_Fault_2",
+    "fault_ch": "跑马山断裂_2",
+    "fault_wide": "0",
+    "Faultplanedip": "60",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Pushagang_Fault",
+    "fault_ch": "菩萨岗断裂",
+    "fault_wide": "0",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "315-345",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Qinglong_Fault_1",
+    "fault_ch": "青龙断裂_1",
+    "fault_wide": ">2000",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "335",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Qinglong_Fault_2",
+    "fault_ch": "青龙断裂_2",
+    "fault_wide": ">2000",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "335",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Qinglong_Fault_3",
+    "fault_ch": "青龙断裂_3",
+    "fault_wide": ">2000",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "335",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Riluoke_Fault",
+    "fault_ch": "日洛可断裂",
+    "fault_wide": "0",
+    "Faultplanedip": "50",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "平移断层"
+  },
+  {
+    "Fault_Name": "Sanhe_Fault_1",
+    "fault_ch": "三合断裂_1",
+    "fault_wide": "1500",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "320-40",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Sanhe_Fault_10",
+    "fault_ch": "三合断裂_10",
+    "fault_wide": "1500",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "320-40",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Sanhe_Fault_11",
+    "fault_ch": "三合断裂_11",
+    "fault_wide": "1500",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "320-40",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Sanhe_Fault_2",
+    "fault_ch": "三合断裂_2",
+    "fault_wide": "1500",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "320-40",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Sanhe_Fault_3",
+    "fault_ch": "三合断裂_3",
+    "fault_wide": "1500",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "320-40",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Sanhe_Fault_4",
+    "fault_ch": "三合断裂_4",
+    "fault_wide": "1500",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "320-40",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Sanhe_Fault_5",
+    "fault_ch": "三合断裂_5",
+    "fault_wide": "1500",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "320-40",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Sanhe_Fault_6",
+    "fault_ch": "三合断裂_6",
+    "fault_wide": "1500",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "320-40",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Sanhe_Fault_7",
+    "fault_ch": "三合断裂_7",
+    "fault_wide": "1500",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "320-40",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Sanhe_Fault_8",
+    "fault_ch": "三合断裂_8",
+    "fault_wide": "1500",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "320-40",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Sanhe_Fault_9",
+    "fault_ch": "三合断裂_9",
+    "fault_wide": "1500",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "320-40",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Shichagou_Fault",
+    "fault_ch": "施查沟断裂",
+    "fault_wide": "0",
+    "Faultplanedip": "90",
+    "Faultlineorientation": "340",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Xinduqiao_Fault_1",
+    "fault_ch": "新都桥断裂_1",
+    "fault_wide": "0",
+    "Faultplanedip": "45",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Xinduqiao_Fault_2",
+    "fault_ch": "新都桥断裂_2",
+    "fault_wide": "0",
+    "Faultplanedip": "45",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Xinduqiao_Fault_3",
+    "fault_ch": "新都桥断裂_3",
+    "fault_wide": "0",
+    "Faultplanedip": "45",
+    "Faultlineorientation": "NE",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  },
+  {
+    "Fault_Name": "Yongxigou_Fault",
+    "fault_ch": "永西沟断裂",
+    "fault_wide": "0",
+    "Faultplanedip": "50",
+    "Faultlineorientation": "300-320",
+    "polarity": "-1",
+    "Natureoffracture": "逆断层"
+  }
+]

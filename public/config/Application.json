@@ -1,0 +1,12 @@
+{
+	"ipServer": "http://192.168.1.21:8080",
+	"neo4jServer": "http://192.168.3.47:10085",
+	"middlewareServer": "http://localhost:10085",
+	"openFPS": false,
+	"openlayerControl": true,
+	"debugMode": false,
+	"mapProvider": "Bing Map",
+	"tdtToken": "85a16639478d6d32f753fde8af3e0f15",
+	"ionToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlODE0MTRjZC0zZjQ3LTQxNTctYjE0NC05NGY1MjA0ZDgxYmMiLCJpZCI6OTg4MjAsImlhdCI6MTY4NTE2MjA1Mn0.FxQ9MoKycjkrZFuExULXjjgjHVxYTQ4qsSieZLLjWyQ",
+	"zzsmImage": "http://172.16.21.73:8000"
+}

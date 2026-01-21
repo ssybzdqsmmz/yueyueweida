@@ -1,0 +1,140 @@
+import type {
+	PropType as VuePropType,
+	App
+} from "vue";
+import type { ECharts } from "echarts";
+
+
+
+
+/**
+ * 全局类型声明，无需引入直接在 `.vue` 、`.ts` 、`.tsx` 文件使用即可获得类型提示
+ */
+declare global {
+	/**
+	 * 平台的名称、版本、依赖、最后构建时间的类型提示
+	 */
+	const __APP_INFO__: {
+		pkg: {
+			name: string;
+			version: string;
+			dependencies: Recordable<string>;
+			devDependencies: Recordable<string>;
+		};
+		lastBuildTime: string;
+	};
+
+	type Recordable<T = any> = Record<string, T>;
+	/**
+	 * Window 的类型提示
+	 */
+	interface Window {
+		// Global vue app instance
+		__APP__: App<Element>;
+		webkitCancelAnimationFrame: (handle: number) => void;
+		mozCancelAnimationFrame: (handle: number) => void;
+		oCancelAnimationFrame: (handle: number) => void;
+		msCancelAnimationFrame: (handle: number) => void;
+		webkitRequestAnimationFrame: (callback: FrameRequestCallback) => number;
+		mozRequestAnimationFrame: (callback: FrameRequestCallback) => number;
+		oRequestAnimationFrame: (callback: FrameRequestCallback) => number;
+		msRequestAnimationFrame: (callback: FrameRequestCallback) => number;
+	}
+
+
+	/**
+	 * 全局自定义环境变量的类型声明
+	 * @see {@link https://yiming_chang.gitee.io/pure-admin-doc/pages/config/#%E5%85%B7%E4%BD%93%E9%85%8D%E7%BD%AE}
+	 */
+	interface ViteEnv {
+		VITE_PORT: number;
+		VITE_PUBLIC_PATH: string;
+		VITE_ROUTER_HISTORY: string;
+		VITE_CDN: boolean;
+		VITE_HIDE_HOME: string;
+		VITE_COMPRESSION: ViteCompression;
+	}
+
+	/**
+ * 打包压缩格式的类型声明
+ */
+	type ViteCompression =
+		| "none"
+		| "gzip"
+		| "brotli"
+		| "both"
+		| "gzip-clear"
+		| "brotli-clear"
+		| "both-clear";
+
+
+	/**
+	 * 与 `ServerConfigs` 类型不同，这里是缓存到浏览器本地存储的类型声明
+	 * @see {@link https://yiming_chang.gitee.io/pure-admin-doc/pages/config/#serverconfig-json}
+	 */
+	interface StorageConfigs {
+		version?: string;
+		title?: string;
+		fixedHeader?: boolean;
+		hiddenSideBar?: boolean;
+		multiTagsCache?: boolean;
+		keepAlive?: boolean;
+		locale?: string;
+		layout?: string;
+		theme?: string;
+		darkMode?: boolean;
+		grey?: boolean;
+		weak?: boolean;
+		hideTabs?: boolean;
+		sidebarStatus?: boolean;
+		epThemeColor?: string;
+		showLogo?: boolean;
+		showModel?: string;
+		username?: string;
+	}
+
+	/**
+	 * `responsive-storage` 本地响应式 `storage` 的类型声明
+	 */
+	interface ResponsiveStorage {
+		locale: {
+			locale?: string;
+		};
+		layout: {
+			layout?: string;
+			theme?: string;
+			darkMode?: boolean;
+			sidebarStatus?: boolean;
+			epThemeColor?: string;
+		};
+		configure: {
+			grey?: boolean;
+			weak?: boolean;
+			hideTabs?: boolean;
+			showLogo?: boolean;
+			showModel?: string;
+			multiTagsCache?: boolean;
+		};
+		tags?: Array<any>;
+	}
+
+	/**
+	 * 平台里所有组件实例都能访问到的全局属性对象的类型声明
+	 */
+	interface GlobalPropertiesApi {
+		$echarts: ECharts;
+		$storage: ResponsiveStorage;
+	}
+
+	/**
+	 * 下面是全线场景的类型
+	 */
+	interface TreeLayer {
+		label: string; // 图层名称
+		value: string; // 真正的图层名称
+		url: string; //图层加载地址
+		viewPort: any; // 视角
+	}
+
+	type TreeLayerData = TreeLayer[];
+}

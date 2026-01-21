@@ -1,0 +1,202 @@
+[
+  {
+    "value": "clr20w",
+    "url": "cz:czsection-xz-20w",
+    "label": "20w地质图",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.792427226862663,
+          "pitch": -1.1271547604418646,
+          "roll": 0.00287052954391509
+        },
+        "Position": {
+          "longitude": 97.2607351,
+          "latitude": 28.2404353,
+          "height": 517677.176768
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "clr50w",
+    "url": "cz:czsection-50w",
+    "label": "50w地质图",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 0.02982320825661855,
+          "pitch": -1.5652903784288226,
+          "roll": 0
+        },
+        "Position": {
+          "longitude": 97.4203126,
+          "latitude": 30.5411694,
+          "height": 1724825.8669095
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "fullline_region_model",
+    "label": "昌都至林芝地层模型",
+    "url": "昌都至林芝地层模型",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.792427226862663,
+          "pitch": -1.1271547604418646,
+          "roll": 0.00287052954391509
+        },
+        "Position": {
+          "longitude": 97.2607351,
+          "latitude": 28.2404353,
+          "height": 517677.176768
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "fullline_region_zh_model",
+    "url": "孜河-地层模型",
+    "label": "孜河-地层模型",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.546286178399188,
+          "pitch": -0.9301335136564264,
+          "roll": 0.002888958139538822
+        },
+        "Position": {
+          "longitude": 102.1759263,
+          "latitude": 29.1690376,
+          "height": 132579.3759372
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "xz_region_model",
+    "url": "两隧两桥西藏段地质模型",
+    "label": "西藏段地质模型",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.543771268504294,
+          "pitch": -0.8473624019820907,
+          "roll": 0.00001558769476428523
+        },
+        "Position": {
+          "longitude": 95.3702231,
+          "latitude": 28.7590149,
+          "height": 126490.3639263
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "fullline_region_tq_model",
+    "url": "天全地层模型",
+    "label": "天全地层模型",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 0.9495263623383483,
+          "pitch": -0.7254519401017316,
+          "roll": 0.0028741237893665783
+        },
+        "Position": {
+          "longitude": 101.5335049,
+          "latitude": 29.7832605,
+          "height": 81372.5117105
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "ya_region_model",
+    "url": "雅安_区域地质模型",
+    "label": "雅安_区域地质模型",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.570315182743306,
+          "pitch": -0.47795934589764943,
+          "roll": 0.000012139219504270216
+        },
+        "Position": {
+          "longitude": 102.9136256,
+          "latitude": 29.332404,
+          "height": 26643.8707384
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "fullline_region_kd_model",
+    "url": "康定_区域地质模型",
+    "label": "康定_区域地质模型",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.690462700470529,
+          "pitch": -1.0024391784542463,
+          "roll": 0.002832194030764512
+        },
+        "Position": {
+          "longitude": 101.9815926,
+          "latitude": 29.7960991,
+          "height": 106332.9104066
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "fault_region_model",
+    "url": "昌都至林芝断裂带",
+    "label": "昌都至林芝断裂带",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 6.089148163266802,
+          "pitch": -0.7144731995894444,
+          "roll": 0.00002507705679022365
+        },
+        "Position": {
+          "longitude": 96.7376411,
+          "latitude": 28.2433529,
+          "height": 185055.7661651
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "fault_region_xz_model",
+    "url": "两隧两桥_西藏段断裂",
+    "label": "西藏段断裂",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 6.089141559544856,
+          "pitch": -0.7145119425460207,
+          "roll": 0.00003515547177990186
+        },
+        "Position": {
+          "longitude": 94.9313925,
+          "latitude": 27.8349218,
+          "height": 166156.7643199
+        }
+      },
+      "duration": 2
+    }
+  }
+]

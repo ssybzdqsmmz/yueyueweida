@@ -1,0 +1,28 @@
+{
+  "points": [
+    {
+      "longitude": 101.54176520000004,
+      "latitude": 30.073276960000044,
+      "height": 0,
+      "lineHeight": 80000
+    },
+    {
+      "longitude": 97.11940113900005,
+      "latitude": 30.73818402300003,
+      "height": 0,
+      "lineHeight": 40000
+    },
+    {
+      "longitude": 98.89390698700004,
+      "latitude": 30.760939504000078,
+      "height": 0,
+      "lineHeight": 120000
+    },
+    {
+      "longitude": 94.44587161600003,
+      "latitude": 29.538092652000046,
+      "height": 0,
+      "lineHeight": 150000
+    }
+  ]
+}

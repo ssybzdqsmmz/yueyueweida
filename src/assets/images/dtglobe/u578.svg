@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="105px" height="52px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="28" y1="30" x2="111" y2="30" id="LinearGradient65">
+      <stop id="Stop66" stop-color="#00e3d2" offset="0" />
+      <stop id="Stop67" stop-color="#26a1df" offset="0.72" />
+      <stop id="Stop68" stop-color="#3f77e9" offset="0.99" />
+      <stop id="Stop69" stop-color="#3f77e9" offset="1" />
+    </linearGradient>
+    <filter x="17px" y="4px" width="105px" height="52px" filterUnits="userSpaceOnUse" id="filter70">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="5.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0117647058823529  0 0 0 0 0.505882352941176  0 0 0 0 1  0 0 0 0.0509803921568627 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget71">
+      <image preserveAspectRatio="none" style="overflow:visible" width="83" height="30" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFMAAAAeCAYAAABQdCKyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMqSURBVGhD7ZpbbtswEEU5pJwspNlACxjoDpzstAFaFP1KH1vJShKR7LkjSlbc/NV/5JVpPiQZyMElqczIPj6Wu+kmfAglWJAqB8qUifasjrQ1OtV0rqo1VlJrpzk82/FbuU8xPPgJMBYA1kKhjpQSF7jA7luxVZjOYXJYDHw0GCyX8GTHR2DeAHMH0koopQF1mL2DXAU5wTRARgAKqqUQo9AmwcSZVoFpwMvwNMpLqHkGaLRa+Wwwe4W6upIaIBahlG4davQCULz4045fy4mBBxbHWmPIWUBfreS5FsaL3Dqc2SRnyo0+xS1ZqjEdFqCY8bfDBNc90xuAmumW61xzfqGtac50DwnvjjXTbUnlMFkao4CmWFOacGYC5qcv5YR9TwVHlhlnlpCZ5tRAzSyhe2eq3aO0JkrNmekgnkB0oGGKEyumhT/i7ZDwHuZkTW0bzwrSNyWtoyCFJFWHRX87DNxMHBk2jC0btJhpNPH0oy+ORqoB5LYVpLfzrt9rgcHcuPAQvnBhxrI/b4+PizMlfOu1LpZ0IT2nLqnu+UBiQWPpax/h2G8l0f+zWUGuMi6Uel8r97pkIDYrH9VwPDtT2mMeAN/XnpG04/QW5tB/acC8ogbMK2rAvKIGzCtqwLyiBswrasC8ot7C3PUUCB16R5dc1ogSimui6B9VD80v2t3QrWAgHBvLfUc1HJcu4LYTAqegG1J8ab1Hcbyui4A0qd+aGzYphuz4WqJI0XhuVBBe4U6K8hve7v1oLJSiKLRjrTEeFMxUkjKYJvgClou5kMFqFZBq01mybjpXlx/pvZwNBkHqChcx45zNmHLLASm9+zqHwli2XQ5IAVHHORRwo89agfS8T7R02OeAjt/LCZAPgPPUhGcnsxUl1RT5XCPN/muX4ade1BbGdf0EJjTlz5adDPg1hl9L3jyGe4ECmnwITKC++v6jTMYZ5GUQuRftNmjtK5OmNssgDS2DMW558/X1GHpyoNxpLcehaa78xhab79yZ2mnevNGh9VMwhbSGJ/v8o9xxnYqH3vXCFif0RkeYUntxy7+G9CzpL27pCUgNIDLjl8EQnv8CUp19g1/ulCwAAAAASUVORK5CYII=" x="28px" y="15px" />
+      <path d="M 28.5 15.5  L 110.5 15.5  L 110.5 44.5  L 28.5 44.5  L 28.5 15.5  Z " stroke-width="1" stroke="url(#LinearGradient65)" fill="none" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -17 -4 )">
+    <use xlink:href="#widget71" filter="url(#filter70)" />
+    <use xlink:href="#widget71" />
+  </g>
+</svg>

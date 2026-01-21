@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "uid": "277bc1f5b2e84c209ae010b7d9681e01",
+    "name": "大渡河场景",
+    "version": "1.0",
+    "customProperty": "CZ",
+    "createTime": "2021-05-13 14:41:02"
+  },
+  {
+    "name": "巴塘车站DSM",
+    "visible": true,
+    "datastore": "Batang/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "Batang/DSM/3dtiles/batang_osgb/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "茶洛",
+    "visible": true,
+    "datastore": "Chaluo/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "Chaluo/DSM/chaluo/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "乱石堡",
+    "visible": true,
+    "datastore": "Luanshibao/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "Luanshibao/DSM/3dtiles/luanshibao/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "瓦岗",
+    "visible": true,
+    "datastore": "Wagang/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "Wagang/DSM/3dtiles/wagang_osgb/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "雅江",
+    "visible": true,
+    "datastore": "Yajiang/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "Yajiang/DSM/3dtiles/yajiang_osgb/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "金沙江",
+    "visible": true,
+    "datastore": "Yajiang/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "JinshaRiver/DSM/3dtiles/jsj_osgb/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  }
+]

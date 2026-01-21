@@ -1,0 +1,45 @@
+<<<<<<< HEAD
+<svg xmlns="http://www.w3.org/2000/svg" width="311.007" height="19" viewBox="0 0 311.007 19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(7,31,35,0.46);
+        stroke: rgba(98,124,122,0.62);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: rgba(98,124,122,0.8);
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="图表边框" transform="translate(-1501.496 -791.5)">
+    <rect id="矩形_406" data-name="矩形 406" class="cls-1" width="10" height="303" transform="translate(1808 796) rotate(90)"/>
+    <path id="路径_791" data-name="路径 791" class="cls-2" d="M164.919,679.642h-6l.12,18,5.88,0" transform="translate(1343.081 112.358)"/>
+    <path id="路径_787" data-name="路径 787" class="cls-2" d="M158.919,679.642h6l-.12,18-5.88,0" transform="translate(1647.081 112.358)"/>
+  </g>
+</svg>
+=======
+<svg xmlns="http://www.w3.org/2000/svg" width="311.007" height="19" viewBox="0 0 311.007 19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(7,31,35,0.46);
+        stroke: rgba(98,124,122,0.62);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: rgba(98,124,122,0.8);
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="图表边框" transform="translate(-1501.496 -791.5)">
+    <rect id="矩形_406" data-name="矩形 406" class="cls-1" width="10" height="303" transform="translate(1808 796) rotate(90)"/>
+    <path id="路径_791" data-name="路径 791" class="cls-2" d="M164.919,679.642h-6l.12,18,5.88,0" transform="translate(1343.081 112.358)"/>
+    <path id="路径_787" data-name="路径 787" class="cls-2" d="M158.919,679.642h6l-.12,18-5.88,0" transform="translate(1647.081 112.358)"/>
+  </g>
+</svg>
+>>>>>>> e9188f40dfb631b96c24c0ac818ec16c61277c0c

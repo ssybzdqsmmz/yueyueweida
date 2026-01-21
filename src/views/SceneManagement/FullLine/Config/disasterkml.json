@@ -1,0 +1,27 @@
+[
+  {
+    "name": "冰川",
+    "visible": true,
+    "url": "FullLine/Line/kml/冰川.kml"
+  },
+  {
+    "name": "冰湖",
+    "visible": true,
+    "url": "FullLine/Line/kml/冰湖.kml"
+  },
+  {
+    "name": "复活历史变形破坏区",
+    "visible": true,
+    "url": "FullLine/Line/kml/复活历史变形破坏区.kml"
+  },
+  {
+    "name": "稳定历史变形破坏区",
+    "visible": true,
+    "url": "FullLine/Line/kml/稳定历史变形破坏区.kml"
+  },
+  {
+    "name": "斜坡变形区",
+    "visible": true,
+    "url": "FullLine/Line/kml/斜坡变形区.kml"
+  }
+]

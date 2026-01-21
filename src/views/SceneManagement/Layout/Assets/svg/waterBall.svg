@@ -1,0 +1,129 @@
+<<<<<<< HEAD
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85.71" height="30.931" viewBox="0 0 85.71 30.931">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#001737" stop-opacity="0.502"/>
+      <stop offset="0.437" stop-color="#589afe" stop-opacity="0.149"/>
+      <stop offset="0.594" stop-color="#002d67" stop-opacity="0.039"/>
+      <stop offset="0.706" stop-color="#002886" stop-opacity="0.09"/>
+      <stop offset="0.797" stop-color="#4492f7" stop-opacity="0.161"/>
+      <stop offset="0.874" stop-color="#3876f3" stop-opacity="0.4"/>
+      <stop offset="0.942" stop-color="#297ded" stop-opacity="0.569"/>
+      <stop offset="1" stop-color="#1865e8" stop-opacity="0.722"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientTransform="translate(0 0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5ac3ff" stop-opacity="0"/>
+      <stop offset="0.437" stop-color="#589ffe" stop-opacity="0.008"/>
+      <stop offset="0.594" stop-color="#55a3fd" stop-opacity="0.039"/>
+      <stop offset="0.706" stop-color="#4e99fa" stop-opacity="0.09"/>
+      <stop offset="0.797" stop-color="#4492f7" stop-opacity="0.161"/>
+      <stop offset="0.874" stop-color="#388ff3" stop-opacity="0.255"/>
+      <stop offset="0.942" stop-color="#2998ed" stop-opacity="0.369"/>
+      <stop offset="1" stop-color="#1880e8" stop-opacity="0.722"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1880e8" stop-opacity="0.878"/>
+      <stop offset="0.449" stop-color="#3996f3" stop-opacity="0.247"/>
+      <stop offset="0.813" stop-color="#51b7fb" stop-opacity="0.067"/>
+      <stop offset="1" stop-color="#5aa2ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.682" y1="1.07" x2="0.682" y2="-0.248" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#188de8"/>
+      <stop offset="0.449" stop-color="#3990f3" stop-opacity="0.247"/>
+      <stop offset="0.813" stop-color="#5195fb" stop-opacity="0.067"/>
+      <stop offset="1" stop-color="#5ab2ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="组_835" data-name="组 835" transform="translate(-1420 -419.253)">
+    <ellipse id="椭圆_86" data-name="椭圆 86" class="cls-1" cx="32.57" cy="8.359" rx="32.57" ry="8.359" transform="translate(1430.152 421.699)"/>
+    <g id="组_360" data-name="组 360" transform="translate(1437.266 439.741)">
+      <ellipse id="椭圆_87" data-name="椭圆 87" class="cls-2" cx="25.713" cy="4.857" rx="25.713" ry="4.857"/>
+    </g>
+    <path id="路径_450" data-name="路径 450" class="cls-3" d="M3795.889,240.456c14.267,0,25.833,2.174,25.833,4.857s-11.566,4.857-25.833,4.857-25.832-2.174-25.832-4.857,11.565-4.857,25.832-4.857m0-.729c-10.68,0-26.57,1.488-26.57,5.587s15.889,5.587,26.57,5.587,26.571-1.488,26.571-5.587-15.89-5.587-26.571-5.587Z" transform="translate(-2332.91 199.284)"/>
+    <g id="组_361" data-name="组 361" transform="translate(1420 419.253)">
+      <path id="路径_451" data-name="路径 451" class="cls-4" d="M3792.71,241c-24.031,0-42.855-5.341-42.855-12.16s18.824-12.16,42.855-12.16,42.855,5.341,42.855,12.16S3816.741,241,3792.71,241Zm0-23.592c-22.835,0-42.127,5.235-42.127,11.432s19.292,11.432,42.127,11.432,42.128-5.235,42.128-11.432S3815.545,217.4,3792.71,217.4Z" transform="translate(-3749.855 -216.675)"/>
+    </g>
+  </g>
+</svg>
+=======
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85.71" height="30.931" viewBox="0 0 85.71 30.931">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#001737" stop-opacity="0.502"/>
+      <stop offset="0.437" stop-color="#589afe" stop-opacity="0.149"/>
+      <stop offset="0.594" stop-color="#002d67" stop-opacity="0.039"/>
+      <stop offset="0.706" stop-color="#002886" stop-opacity="0.09"/>
+      <stop offset="0.797" stop-color="#4492f7" stop-opacity="0.161"/>
+      <stop offset="0.874" stop-color="#3876f3" stop-opacity="0.4"/>
+      <stop offset="0.942" stop-color="#297ded" stop-opacity="0.569"/>
+      <stop offset="1" stop-color="#1865e8" stop-opacity="0.722"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientTransform="translate(0 0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5ac3ff" stop-opacity="0"/>
+      <stop offset="0.437" stop-color="#589ffe" stop-opacity="0.008"/>
+      <stop offset="0.594" stop-color="#55a3fd" stop-opacity="0.039"/>
+      <stop offset="0.706" stop-color="#4e99fa" stop-opacity="0.09"/>
+      <stop offset="0.797" stop-color="#4492f7" stop-opacity="0.161"/>
+      <stop offset="0.874" stop-color="#388ff3" stop-opacity="0.255"/>
+      <stop offset="0.942" stop-color="#2998ed" stop-opacity="0.369"/>
+      <stop offset="1" stop-color="#1880e8" stop-opacity="0.722"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1880e8" stop-opacity="0.878"/>
+      <stop offset="0.449" stop-color="#3996f3" stop-opacity="0.247"/>
+      <stop offset="0.813" stop-color="#51b7fb" stop-opacity="0.067"/>
+      <stop offset="1" stop-color="#5aa2ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.682" y1="1.07" x2="0.682" y2="-0.248" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#188de8"/>
+      <stop offset="0.449" stop-color="#3990f3" stop-opacity="0.247"/>
+      <stop offset="0.813" stop-color="#5195fb" stop-opacity="0.067"/>
+      <stop offset="1" stop-color="#5ab2ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="组_835" data-name="组 835" transform="translate(-1420 -419.253)">
+    <ellipse id="椭圆_86" data-name="椭圆 86" class="cls-1" cx="32.57" cy="8.359" rx="32.57" ry="8.359" transform="translate(1430.152 421.699)"/>
+    <g id="组_360" data-name="组 360" transform="translate(1437.266 439.741)">
+      <ellipse id="椭圆_87" data-name="椭圆 87" class="cls-2" cx="25.713" cy="4.857" rx="25.713" ry="4.857"/>
+    </g>
+    <path id="路径_450" data-name="路径 450" class="cls-3" d="M3795.889,240.456c14.267,0,25.833,2.174,25.833,4.857s-11.566,4.857-25.833,4.857-25.832-2.174-25.832-4.857,11.565-4.857,25.832-4.857m0-.729c-10.68,0-26.57,1.488-26.57,5.587s15.889,5.587,26.57,5.587,26.571-1.488,26.571-5.587-15.89-5.587-26.571-5.587Z" transform="translate(-2332.91 199.284)"/>
+    <g id="组_361" data-name="组 361" transform="translate(1420 419.253)">
+      <path id="路径_451" data-name="路径 451" class="cls-4" d="M3792.71,241c-24.031,0-42.855-5.341-42.855-12.16s18.824-12.16,42.855-12.16,42.855,5.341,42.855,12.16S3816.741,241,3792.71,241Zm0-23.592c-22.835,0-42.127,5.235-42.127,11.432s19.292,11.432,42.127,11.432,42.128-5.235,42.128-11.432S3815.545,217.4,3792.71,217.4Z" transform="translate(-3749.855 -216.675)"/>
+    </g>
+  </g>
+</svg>
+>>>>>>> e9188f40dfb631b96c24c0ac818ec16c61277c0c

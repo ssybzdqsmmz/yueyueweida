@@ -1,0 +1,24 @@
+[
+  {
+    "title": "采空区场景",
+    "topic": "gob",
+    "children": [
+      {
+        "icon": "cydk",
+        "name": "采空区建模场景",
+        "topic": "goaf-modeling"
+      }
+    ]
+  },
+	{
+		"title": "采空区场景",
+    "topic": "gob",
+    "children": [
+      {
+        "icon": "cydk",
+        "name": "采空区建模场景",
+        "topic": "goaf-modeling"
+      }
+    ]
+	}
+]

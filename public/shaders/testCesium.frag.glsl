@@ -1,0 +1,353 @@
+precision highp float;
+
+
+uniform bool uEnableFilterAlpha;
+
+uniform sampler2D uVolume; // 图像纹理
+uniform sampler2D uTransferFunction; // 色带纹理
+
+uniform vec3 uBBMin;
+uniform vec3 uBBMax;
+uniform vec3 uResolution;
+
+uniform bool uEnableColour;
+
+uniform float uBrightness;
+uniform float uContrast;
+uniform float uSaturation;
+uniform float uPower;
+
+uniform int uSamples; // rayMarching的次数
+uniform float uDensityFactor; // 密度因子
+uniform float uIsoValue; // 等值面的值
+uniform vec4 uIsoColour; // 等值面的色带
+uniform float uIsoSmooth;
+uniform int uIsoWalls;
+uniform int uFilter; // 优化的函数
+uniform vec2 uRange;
+uniform vec2 uDenMinMax;
+
+vec2 islices = vec2(1.0 / slices.x, 1.0 / slices.y);
+
+/**
+ * @description: 从三维步进坐标中采样得到对应的color
+ * @return {*}
+ */
+vec4 texture3Dfrom2D(vec3 pos)
+{
+    //Get z slice index and position between two slices
+    float Z = pos.z * slices.x * slices.y;// 0.25 * 16 * 16 获取对应的切片小数 34.37
+    int slice = int(Z); //Index of first slice // 找到第34张切片
+
+    //X & Y coords of sample scaled to slice size
+    vec2 sampleOffset = pos.xy * islices; // [col, row]精确到具体的切片位置，以slice切片作为单位
+    //Offsets in 2D texture of given slice indices
+    //(add offsets to scaled position within slice to get sample positions)
+    float A = float(slice) * islices.x; // 第34张切片【34/16】
+    float B = float(slice+1) * islices.x; // 第35张切片【35/16】
+    vec2 z1offset = vec2(fract(A), floor(A) / slices.y) + sampleOffset;
+    vec2 z2offset = vec2(fract(B), floor(B) / slices.y) + sampleOffset;
+    //Interpolate the final value by position between slices [0,1]
+    // 两个切片之间内插值
+    return mix(texture2D(uVolume, z1offset), texture2D(uVolume, z2offset), fract(Z));
+}
+
+float interpolate_tricubic_fast(vec3 coord);
+
+
+/**
+ * @description: 三维坐标中采样的具体方法【两种状态】
+ * @return {*}
+ */
+float tex3D(vec3 pos)
+{
+    if (uFilter > 0)
+        return interpolate_tricubic_fast(pos);
+    return texture3Dfrom2D(pos).x;
+}
+
+// It seems WebGL has no transpose
+mat4 transpose( mat4 m)
+{
+    return mat4(
+                vec4(m[0].x, m[1].x, m[2].x, m[3].x),
+                vec4(m[0].y, m[1].y, m[2].y, m[3].y),
+                vec4(m[0].z, m[1].z, m[2].z, m[3].z),
+                vec4(m[0].w, m[1].w, m[2].w, m[3].w)
+                );
+}
+
+//Light moves with camera
+const vec3 lightPos = vec3(0.5, 0.5, 5.0); // 光源位置
+const float ambient = 0.2; // 环境光因子
+const float diffuse = 0.8; // 漫反射因子
+const vec3 diffColour = vec3(1.0, 1.0, 1.0);  //Colour of diffuse light
+const vec3 ambColour = vec3(0.2, 0.2, 0.2);   //Colour of ambient light
+
+void lighting(vec3 pos, vec3 normal, vec3 colour)
+{
+    vec4 vertPos = czm_modelView * vec4(pos, 1.0);
+    vec3 lightDir = normalize(lightPos - vertPos.xyz);
+    vec3 lightWeighting = ambColour + diffColour * diffuse * clamp(abs(dot(normal, lightDir)), 0.1, 1.0);
+
+    colour *= lightWeighting;
+}
+
+/**
+ * @description: 法向量计算
+ * @return {*}
+ */
+vec3 isoNormal(vec3 pos, vec3 shift,float density)
+{
+    vec3 shiftpos = vec3(pos.x + shift.x, pos.y + shift.y, pos.z + shift.z);
+    vec3 shiftx = vec3(shiftpos.x, pos.y, pos.z);
+    vec3 shifty = vec3(pos.x, shiftpos.y, pos.z);
+    vec3 shiftz = vec3(pos.x, pos.y, shiftpos.z);
+
+    //Detect bounding box hit (walls)
+    if (uIsoWalls > 0)
+    {
+        if (pos.x <= uBBMin.x) return vec3(-1.0, 0.0, 0.0);
+        if (pos.x >= uBBMax.x) return vec3(1.0, 0.0, 0.0);
+        if (pos.y <= uBBMin.y) return vec3(0.0, -1.0, 0.0);
+        if (pos.y >= uBBMax.y) return vec3(0.0, 1.0, 0.0);
+        if (pos.z <= uBBMin.z) return vec3(0.0, 0.0, -1.0);
+        if (pos.z >= uBBMax.z) return vec3(0.0, 0.0, 1.0);
+    }
+
+    //Calculate normal
+    return vec3(density) - vec3(tex3D(shiftx), tex3D(shifty), tex3D(shiftz));
+}
+
+/**
+ * @description: 去除光线之外的，求camera viewport与Box的交点进行渲染
+ * condition1 min and max SDF range
+ * @return {*}
+ */
+vec2 rayIntersectBox(vec3 rayDirection, vec3 rayOrigin)
+{
+    //Intersect ray with bounding box
+    vec3 rayInvDirection = 1.0 / rayDirection;
+    vec3 bbMinDiff = (uBBMin - rayOrigin) * rayInvDirection; // 体素最近处与视点的差异向量
+    vec3 bbMaxDiff = (uBBMax - rayOrigin) * rayInvDirection; // 体素最远处与视点的差异向量
+    vec3 imax = max(bbMaxDiff, bbMinDiff);
+    vec3 imin = min(bbMaxDiff, bbMinDiff);
+    float back = min(imax.x, min(imax.y, imax.z));
+    float front = max(max(imin.x, 0.0), max(imin.y, imin.z));
+    return vec2(back, front); // 返回min和max的distance
+}
+
+void main()
+{
+    //ObjectSpace *[MV] = EyeSpace *[P] = Clip /w = Normalised device coords ->VP-> Window
+    //Window ->[VP^]-> NDC ->[/w]-> Clip ->[P^]-> EyeSpace ->[MV^]-> ObjectSpace | 屏幕坐标->[VP]->NDC->[/w]->裁剪空间->[P]->相机空间->[MV]->世界空间
+    vec4 ndcPos;
+    ndcPos.xy = ((2.0 * gl_FragCoord.xy) - (2.0 * czm_viewport.xy)) / (czm_viewport.zw) - 1.0;
+    ndcPos.z = (2.0 * gl_FragCoord.z - gl_DepthRange.near - gl_DepthRange.far) /
+                (gl_DepthRange.far - gl_DepthRange.near);
+    ndcPos.w = 1.0;
+    vec4 clipPos = ndcPos / gl_FragCoord.w;
+    vec4 targetPos = czm_inverseModelViewProjection * clipPos;
+    vec3 targetPosNormalized = targetPos.xyz / targetPos.w;
+
+    //Ray origin from the camera position
+    // vec4 camPos = -vec4(czm_modelView[3]);  //4th column of modelview[相机空间下的坐标]
+    // vec3 rayOrigin = (czm_inverseModelView * camPos).xyz;// [局部坐标系下的坐标]
+    vec3 rayOrigin = czm_encodedCameraPositionMCHigh + czm_encodedCameraPositionMCLow;
+    vec3 rayDirection = normalize(targetPosNormalized - rayOrigin);
+
+    //Calc step【最长的distance->步距】
+    float stepSize = 1.73 / float(uSamples); //diagonal of [0,1] normalised coord cube = sqrt(3)
+
+    //Intersect ray with bounding box
+    vec2 intersection = rayIntersectBox(rayDirection, rayOrigin);
+    //Subtract small increment to avoid errors on front boundary
+    intersection.y -= 0.000001;
+    //Discard points outside the box (no intersection)
+    if (intersection.x <= intersection.y) discard;
+
+    vec3 rayStart = rayOrigin + rayDirection * intersection.y; // 射线起点
+    vec3 rayStop = rayOrigin + rayDirection * intersection.x; // 射线终点 
+
+    vec3 step = normalize(rayStop-rayStart) * stepSize; // 每一次在多个方向移动的距离
+    vec3 pos = rayStart;
+
+    float T = 1.0;
+    vec3 colour = vec3(0.0);
+    bool inside = false;
+    vec3 shift = uIsoSmooth / uResolution; // 边缘平滑范围
+    //Number of samples to take along this ray before we pass out back of volume... 计算两个交点之间需要步进多少次
+    float travel = distance(rayStop, rayStart) / stepSize;
+    int samples = int(ceil(travel)); // 总步长
+
+    float range = uRange.y - uRange.x;
+    if (range <= 0.0) range = 1.0;
+    //Scale isoValue
+    float isoValue = uRange.x + uIsoValue * range; // 色彩强度的变化值
+
+    //Raymarch, front to back
+    for (int i=0; i < maxSamples; ++i)
+    {
+        if (i == samples ) break; // ray穿过或者迭代限制条件满足，直接返回
+        float density = tex3D(pos);
+            //Passed through isosurface?
+        if (isoValue > uRange.x && ((!inside && density >= isoValue) || (inside && density < isoValue)))
+        {
+            inside = !inside;
+            //Find closer to exact position by iteration
+            //http://sizecoding.blogspot.com.au/2008/08/isosurfaces-in-glsl.html
+            float exact;
+            float a = intersection.y + (float(i)*stepSize); // front + i * stepSize = 当前所在的步进点
+            float b = a - stepSize; // 从上一步开始步进
+            // 二分法求解真正的density
+            for (int j = 0; j < 5; j++)
+            {
+                exact = (b + a) * 0.5; // 两者的中心
+                pos = rayDirection * exact + rayOrigin; // 当前测试的步进点 
+                density = tex3D(pos); // 获取当前密度
+                if (density - isoValue < 0.0) // 上一个值为真正的值
+                    b = exact;
+                else
+                    a = exact;
+            }
+
+            if(uIsoWalls >0|| all(greaterThanEqual(pos, uBBMin)) && all(lessThanEqual(pos, uBBMax))) {
+                // 生成等值面
+                vec4 value = vec4(uIsoColour.rgb, 1.0);
+                // vec3 normal = normalize(mat3(czm_normal) * isoNormal(pos, shift, density));
+
+                vec3 light = value.rgb;
+                // lighting(pos, normal, light);
+                //Front-to-back blend equation
+                colour += T * uIsoColour.a * light;
+                T *= (1.0 - uIsoColour.a);
+            }
+        }
+        // 密度因子过滤
+        if(uDensityFactor > 0.0) {
+            density = (density - uRange.x) / range; // 密度值归一化
+            density = clamp(density, 0.0, 1.0);
+            if(density < uDenMinMax[0] || density > uDenMinMax[1]) {
+                //Skip to next sample...
+                pos += step;
+                continue;
+            } 
+            density = pow(density, uPower); //Apply power
+            vec4 value;
+            if(uEnableColour) {
+                value = texture2D(uTransferFunction, vec2(density, 0.5));
+            }else {
+                value = vec4(density);
+            }
+            value *= uDensityFactor * stepSize;
+            //Color
+            colour += T * value.rgb;
+            //Alpha
+            T *= 1.0 - value.a;
+        }
+
+        //Next sample...
+        pos += step;
+    }
+
+    //Apply brightness, saturation & contrast
+    colour += uBrightness;
+    const vec3 LumCoeff = vec3(0.2125, 0.7154, 0.0721);
+    vec3 AvgLumin = vec3(0.5, 0.5, 0.5);
+    vec3 intensity = vec3(dot(colour, LumCoeff));
+    colour = mix(intensity, colour, uSaturation);
+    colour = mix(AvgLumin, colour, uContrast);
+
+    if (T > 0.95 && uEnableFilterAlpha) discard;
+
+    gl_FragColor = vec4( colour, 1.0 - T );
+
+#ifdef WRITE_DEPTH
+    /* Write the depth !Not supported in WebGL without extension */
+    vec4 clip_space_pos = czm_modelViewProjection * vec4(rayStart, 1.0);
+    float ndc_depth = clip_space_pos.z / clip_space_pos.w;
+    float depth = (((gl_DepthRange.far - gl_DepthRange.near) * ndc_depth) +
+                    gl_DepthRange.near + gl_DepthRange.far) / 2.0;
+
+    gl_FragDepth = depth;
+#endif
+}
+
+float interpolate_tricubic_fast(vec3 coord)
+{
+    /* License applicable to this function:
+    Copyright (c) 2008-2013, Danny Ruijters. All rights reserved.
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+    *  Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+    *  Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+    *  Neither the name of the copyright holders nor the names of its
+        contributors may be used to endorse or promote products derived from
+        this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+    POSSIBILITY OF SUCH DAMAGE.
+
+    The views and conclusions contained in the software and documentation are
+    those of the authors and should not be interpreted as representing official
+    policies, either expressed or implied.
+
+    When using this code in a scientific project, please cite one or all of the
+    following papers:
+    *  Daniel Ruijters and Philippe Thévenaz,
+        GPU Prefilter for Accurate Cubic B-Spline Interpolation,
+        The Computer Journal, vol. 55, no. 1, pp. 15-20, January 2012.
+    *  Daniel Ruijters, Bart M. ter Haar Romeny, and Paul Suetens,
+        Efficient GPU-Based Texture Interpolation using Uniform B-Splines,
+        Journal of Graphics Tools, vol. 13, no. 4, pp. 61-69, 2008.
+    */
+    // shift the coordinate from [0,1] to [-0.5, nrOfVoxels-0.5]
+    vec3 nrOfVoxels = uResolution; //textureSize3D(tex, 0));
+    vec3 coord_grid = coord * nrOfVoxels - 0.5;
+    vec3 index = floor(coord_grid);
+    vec3 fraction = coord_grid - index;
+    vec3 one_frac = 1.0 - fraction;
+
+    vec3 w0 = 1.0/6.0 * one_frac*one_frac*one_frac;
+    vec3 w1 = 2.0/3.0 - 0.5 * fraction*fraction*(2.0-fraction);
+    vec3 w2 = 2.0/3.0 - 0.5 * one_frac*one_frac*(2.0-one_frac);
+    vec3 w3 = 1.0/6.0 * fraction*fraction*fraction;
+
+    vec3 g0 = w0 + w1;
+    vec3 g1 = w2 + w3;
+    vec3 mult = 1.0 / nrOfVoxels;
+    vec3 h0 = mult * ((w1 / g0) - 0.5 + index);  //h0 = w1/g0 - 1, move from [-0.5, nrOfVoxels-0.5] to [0,1]
+    vec3 h1 = mult * ((w3 / g1) + 1.5 + index);  //h1 = w3/g1 + 1, move from [-0.5, nrOfVoxels-0.5] to [0,1]
+
+    // fetch the eight linear interpolations
+    // weighting and fetching is interleaved for performance and stability reasons
+    float tex000 = texture3Dfrom2D(h0).r;
+    float tex100 = texture3Dfrom2D(vec3(h1.x, h0.y, h0.z)).r;
+    tex000 = mix(tex100, tex000, g0.x);  //weigh along the x-direction
+    float tex010 = texture3Dfrom2D(vec3(h0.x, h1.y, h0.z)).r;
+    float tex110 = texture3Dfrom2D(vec3(h1.x, h1.y, h0.z)).r;
+    tex010 = mix(tex110, tex010, g0.x);  //weigh along the x-direction
+    tex000 = mix(tex010, tex000, g0.y);  //weigh along the y-direction
+    float tex001 = texture3Dfrom2D(vec3(h0.x, h0.y, h1.z)).r;
+    float tex101 = texture3Dfrom2D(vec3(h1.x, h0.y, h1.z)).r;
+    tex001 = mix(tex101, tex001, g0.x);  //weigh along the x-direction
+    float tex011 = texture3Dfrom2D(vec3(h0.x, h1.y, h1.z)).r;
+    float tex111 = texture3Dfrom2D(h1).r;
+    tex011 = mix(tex111, tex011, g0.x);  //weigh along the x-direction
+    tex001 = mix(tex011, tex001, g0.y);  //weigh along the y-direction
+
+    return mix(tex001, tex000, g0.z);  //weigh along the z-direction
+}

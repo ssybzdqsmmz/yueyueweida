@@ -1,0 +1,12 @@
+[
+  {
+    "name": "升轨监测数据",
+    "dataGroup": "ascent",
+    "bg": "accend.png"
+  },
+  {
+    "name": "降轨监测数据",
+    "dataGroup": "descent",
+    "bg": "descend.png"
+  }
+]

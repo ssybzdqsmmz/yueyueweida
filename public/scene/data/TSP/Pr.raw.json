@@ -1,0 +1,120 @@
+{
+  "properties": {
+    "nogui": true,
+    "background": "rgba(81,77,74,0.00)"
+  },
+  "colourmaps": [
+    {
+      "colours": [
+        {
+          "position": 0,
+          "colour": "#000000"
+        },
+        {
+          "position": 0.01,
+          "colour": "#000000"
+        },
+        {
+          "position": 0.02,
+          "colour": "#ff00ff"
+        },
+        {
+          "position": 0.2,
+          "colour": "#0000ff"
+        },
+        {
+          "position": 0.4,
+          "colour": "#00ffff"
+        },
+        {
+          "position": 0.6,
+          "colour": "#00ff00"
+        },
+        {
+          "position": 0.8,
+          "colour": "#ffff00"
+        },
+        {
+          "position": 1,
+          "colour": "#ff0000"
+        }
+      ]
+    }
+  ],
+  "views": [
+    {
+      "axes": false,
+      "border": false,
+      "translate": [
+        -0.05715767664977255,
+        -0.031176914536239782,
+        -1.6454482671904334
+      ],
+      "rotate": [
+        0.5536984801292419,
+        0.1137750968337059,
+        -0.7585440278053284,
+        0.32404208183288574
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "name": "volume",
+      "samples": 256,
+      "isovalue": 0.00,
+      "isowalls": false,
+      "isoalpha": 1,
+      "isosmooth": 0.5,
+      "colour": [
+        255,
+        245.46299999999997,
+        226.95000000000002
+      ],
+      "density": 5,
+      "power": 1,
+      "colourmap": 0,
+      "tricubicfilter": false,
+      "zmin": 0,
+      "zmax": 1,
+      "ymin": 0,
+      "ymax": 1,
+      "xmin": 0,
+      "xmax": 1,
+      "brightness": -0.11780890196982163,
+      "contrast": 1,
+      "volume": {
+        "url": "scene/data/TSP/Pr.raw.jpg",
+        "res": [
+          400,
+          100,
+          100
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "cesium": {
+        "rotate": [0.0, -1.5, 168.5],
+        "translate": [50, 30.5, -55],
+        "scale": [0.005, 0.0125, 0.0125]
+      },
+      "slices": {
+        "properties": {
+          "show": false,
+          "X": 155,
+          "Y": 65,
+          "Z": 55,
+          "brightness": 0,
+          "contrast": 1,
+          "power": 1,
+          "usecolourmap": true,
+          "layout": "x|y|z",
+          "zoom": 0.6683351069050206
+        }
+      }
+    }
+  ]
+}

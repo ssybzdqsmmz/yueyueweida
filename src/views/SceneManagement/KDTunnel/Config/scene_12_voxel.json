@@ -1,0 +1,21 @@
+[
+  {
+    "id": "",
+    "uid": "277bc1f5b2e84c209ae010b7d9681e09",
+    "name": "CZSCSQ-2",
+    "version": "1.0",
+    "customProperty": "CZ",
+    "createTime": "2021-05-13 14:41:02"
+  },
+  {
+    "name": "工区全线隧道",
+    "visible": true,
+    "datastore": "12Ju/BIM",
+    "type": 2,
+    "modelType": 0,
+    "url": "CZSCZQ-2/BIM/3dtiles/工区全线隧道_Encrypt/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1]
+  }
+]

@@ -1,0 +1,578 @@
+[
+  {
+    "fault_name": "F18_Fault",
+    "fault_ch": "F18_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F24_Fault",
+    "fault_ch": "F24_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F25_Fault",
+    "fault_ch": "F25_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F26_Fault",
+    "fault_ch": "F26_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F50_Fault",
+    "fault_ch": "F50_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F51_1_Fault",
+    "fault_ch": "F51_1_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F51_2_Fault",
+    "fault_ch": "F51_2_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F51_3_Fault",
+    "fault_ch": "F51_3_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F51_4_Fault",
+    "fault_ch": "F51_4_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F53_1_Fault",
+    "fault_ch": "F53_1_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F53_2_Fault",
+    "fault_ch": "F53_2_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F56_1_Fault",
+    "fault_ch": "F56_1_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F56_2_Fault",
+    "fault_ch": "F56_2_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F57_Fault",
+    "fault_ch": "F57_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F58_1_Fault",
+    "fault_ch": "F58_1_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F58_2_Fault",
+    "fault_ch": "F58_2_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F58_3_Fault",
+    "fault_ch": "F58_3_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F59_1_Fault",
+    "fault_ch": "F59_1_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F59_2_Fault",
+    "fault_ch": "F59_2_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F59_3_Fault",
+    "fault_ch": "F59_3_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F59_4_Fault",
+    "fault_ch": "F59_4_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F59_5_Fault",
+    "fault_ch": "F59_5_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F59_6_Fault",
+    "fault_ch": "F59_6_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F60_Fault",
+    "fault_ch": "F60_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F65_Fault",
+    "fault_ch": "F65_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F67_1_Fault",
+    "fault_ch": "F67_1_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F67_2_Fault",
+    "fault_ch": "F67_2_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F69_1_Fault",
+    "fault_ch": "F69_1_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F69_2_Fault",
+    "fault_ch": "F69_2_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F69_3_Fault",
+    "fault_ch": "F69_3_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F69_4_Fault",
+    "fault_ch": "F69_4_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F70_1_Fault",
+    "fault_ch": "F70_1_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F70_2_Fault",
+    "fault_ch": "F70_2_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F71_1_Fault",
+    "fault_ch": "F71_1_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F71_2_Fault",
+    "fault_ch": "F71_2_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "F72_Fault",
+    "fault_ch": "F72_Fault",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "baijinongba_fault",
+    "fault_ch": "白及弄巴断裂",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "bangsharedai1",
+    "fault_ch": "邦沙热带断层1",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "bangsharedai2",
+    "fault_ch": "邦沙热带断层2",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "bangba",
+    "fault_ch": "帮坝断裂",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "canmula",
+    "fault_ch": "参木拉断裂",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "deyangla",
+    "fault_ch": "德阳拉断层",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "donglimuchang",
+    "fault_ch": "冻里牧场断层",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "duosong_biding1",
+    "fault_ch": "夺松_比丁断裂1",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "duosong_biding2",
+    "fault_ch": "夺松_比丁断裂2",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "duosong_biding3",
+    "fault_ch": "夺松_比丁断裂3",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "duosong_biding4",
+    "fault_ch": "夺松_比丁断裂4",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "gega",
+    "fault_ch": "格嘎断层",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "jialasha",
+    "fault_ch": "加拉沙韧性剪切断裂",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "lingsongmuchang",
+    "fault_ch": "岭松牧场韧性断裂",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "longxuchu1",
+    "fault_ch": "龙须雏断层1",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "longxuchu2",
+    "fault_ch": "龙须雏断层2",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "ludui_bianpingba",
+    "fault_ch": "卢堆_边平巴断裂",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "lunada1",
+    "fault_ch": "鲁拿打断层1",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "lunada2",
+    "fault_ch": "鲁拿打断层2",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "lunada3",
+    "fault_ch": "鲁拿打断层3",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "lunada4",
+    "fault_ch": "鲁拿打断层4",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "lunada5",
+    "fault_ch": "鲁拿打断层5",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "lunada6",
+    "fault_ch": "鲁拿打断层6",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "lunada7",
+    "fault_ch": "鲁拿打断层7",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "lunada8",
+    "fault_ch": "鲁拿打断层8",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "luobagan1",
+    "fault_ch": "洛巴甘断层1",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "luobagan2",
+    "fault_ch": "洛巴甘断层2",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "luobagan1",
+    "fault_ch": "洛布日断层1",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "luobacun_laiguoqiao_shenzhanfault",
+    "fault_ch": "珞巴村_来果桥伸展断裂",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "mayubangga_simaxian",
+    "fault_ch": "马与帮嘎_司马洗韧性剪切带断裂",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "qingqingla",
+    "fault_ch": "清清拉断层",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "xiabairuo_bangbuka_milin",
+    "fault_ch": "下白若_帮布卡_米林断裂",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "xueka_dongbi",
+    "fault_ch": "雪卡_洞比断裂",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "zenala1",
+    "fault_ch": "则那拉断层1",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "zenala2",
+    "fault_ch": "则那拉断层2",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  },
+  {
+    "fault_name": "zenala3",
+    "fault_ch": "则那拉断层3",
+    "faultplanedip": "90",
+    "faultlineorientation": "",
+    "polarity": "-1",
+    "natureoffracture": "逆断层"
+  }
+]

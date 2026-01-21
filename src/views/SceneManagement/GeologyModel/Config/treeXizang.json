@@ -1,0 +1,122 @@
+[
+  {
+    "value": "clr20w",
+    "url": "cz:czsection-xz-20w",
+    "label": "20w地质图",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.792427226862663,
+          "pitch": -1.1271547604418646,
+          "roll": 0.00287052954391509
+        },
+        "Position": {
+          "longitude": 97.2607351,
+          "latitude": 28.2404353,
+          "height": 517677.176768
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "clr50w",
+    "url": "cz:czsection-50w",
+    "label": "50w地质图",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 0.02982320825661855,
+          "pitch": -1.5652903784288226,
+          "roll": 0
+        },
+        "Position": {
+          "longitude": 97.4203126,
+          "latitude": 30.5411694,
+          "height": 1724825.8669095
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "fullline_region_model",
+    "label": "昌都至林芝地层模型",
+    "url": "昌都至林芝地层模型",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.792427226862663,
+          "pitch": -1.1271547604418646,
+          "roll": 0.00287052954391509
+        },
+        "Position": {
+          "longitude": 97.2607351,
+          "latitude": 28.2404353,
+          "height": 517677.176768
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "xz_region_model",
+    "url": "两隧两桥西藏段地质模型",
+    "label": "西藏段地质模型",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.543771268504294,
+          "pitch": -0.8473624019820907,
+          "roll": 0.00001558769476428523
+        },
+        "Position": {
+          "longitude": 95.3702231,
+          "latitude": 28.7590149,
+          "height": 126490.3639263
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "fault_region_model",
+    "url": "昌都至林芝断裂带",
+    "label": "昌都至林芝断裂带",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.880781295,
+          "pitch": -0.970771971678,
+          "roll": 0.0029601410604
+        },
+        "Position": {
+          "longitude": 97.1539438,
+          "latitude": 27.7534150004,
+          "height": 427086.2627
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "fault_region_xz_model",
+    "url": "两隧两桥_西藏段断裂",
+    "label": "西藏段断裂",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.495306907003069,
+          "pitch": -0.7593341621335692,
+          "roll": 0.0030038043510742796
+        },
+        "Position": {
+          "longitude": 96.39435725811681,
+          "latitude": 28.181181239251366,
+          "height": 221586.0765
+        }
+      },
+      "duration": 2
+    }
+  }
+]

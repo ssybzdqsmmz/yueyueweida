@@ -1,0 +1,103 @@
+[
+  {
+    "value": "fullline_region_zh_model",
+    "url": "孜河-地层模型",
+    "label": "孜河-地层模型",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.61324829,
+          "pitch": -0.79165855,
+          "roll": 0.0029081544
+        },
+        "Position": {
+          "longitude": 103.09949318,
+          "latitude": 28.6934082372,
+          "height": 193794.415
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "fullline_region_kd_model",
+    "url": "康定_区域地质模型",
+    "label": "康定_区域地质模型",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.61324829,
+          "pitch": -0.79165855,
+          "roll": 0.0029081544
+        },
+        "Position": {
+          "longitude": 103.09949318,
+          "latitude": 28.6934082372,
+          "height": 193794.415
+        }
+      },
+      "duration": 2
+    }
+  },
+
+  {
+    "value": "fullline_region_tq_model",
+    "url": "天全地层模型",
+    "label": "天全地层模型",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.61324829,
+          "pitch": -0.79165855,
+          "roll": 0.0029081544
+        },
+        "Position": {
+          "longitude": 103.09949318,
+          "latitude": 28.6934082372,
+          "height": 193794.415
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "ya_region_model",
+    "url": "雅安_区域地质模型",
+    "label": "雅安_区域地质模型",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.61324829,
+          "pitch": -0.79165855,
+          "roll": 0.0029081544
+        },
+        "Position": {
+          "longitude": 103.09949318,
+          "latitude": 28.6934082372,
+          "height": 193794.415
+        }
+      },
+      "duration": 2
+    }
+  },
+  {
+    "value": "fullline_region_tq_model",
+    "url": "雅安_康定段断裂带",
+    "label": "雅安_康定段断裂带",
+    "viewPort": {
+      "ViewPoint": {
+        "Orientation": {
+          "heading": 5.61324829,
+          "pitch": -0.79165855,
+          "roll": 0.0029081544
+        },
+        "Position": {
+          "longitude": 103.09949318,
+          "latitude": 28.6934082372,
+          "height": 193794.415
+        }
+      },
+      "duration": 2
+    }
+  }
+]

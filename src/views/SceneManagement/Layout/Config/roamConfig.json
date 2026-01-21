@@ -1,0 +1,95 @@
+[
+	{
+		"id": "",
+		"uid": "277bc1f5b2e84c209ae010b7d9681e01",
+		"name": "CZSCSQ-2",
+		"version": "1.0",
+		"customProperty": "CZ",
+		"createTime": "2021-05-13 14:41:02"
+	},
+	{
+		"name": "03_出口测区_DSM_最新",
+		"visible": true,
+		"datastore": "18Ju/DSM",
+		"type": 2,
+		"modelType": 0,
+		"url": "CZSCZQ-3/DSM/3dtiles/03_出口工区_DSM_最新/tileset.json",
+		"isUnderground": false,
+		"brightness": 1,
+		"scale": [
+			1,
+			1,
+			1
+		],
+		"translation": [
+			0,
+			0,
+			0
+		]
+	},
+	{
+		"name": "正洞DSM_0415",
+		"visible": true,
+		"datastore": "12Ju/DSM",
+		"type": 2,
+		"modelType": 0,
+		"url": "CZSCZQ-2/DSM/3dtiles/正洞工区DSM_0415_Encrypt/tileset.json",
+		"isUnderground": false,
+		"brightness": 1,
+		"scale": [
+			1,
+			1,
+			1
+		],
+		"translation": [
+			0,
+			0,
+			0
+		]
+	},
+	{
+		"name": "点云_正洞开挖_20210602",
+		"visible": false,
+		"datastore": "18Ju/DSM",
+		"type": 2,
+		"modelType": 0,
+		"url": "CZSCZQ-3/DSM/3dtiles/点云_正洞开挖_20210602/tileset.json",
+		"isUnderground": false,
+		"brightness": 1,
+		"scale": [
+			1,
+			1,
+			1
+		]
+	},
+	{
+		"name": "04_折多山隧道_整体BIM",
+		"visible": false,
+		"datastore": "18Ju/BIM",
+		"type": 2,
+		"modelType": 0,
+		"url": "CZSCZQ-3/BIM/3dtiles/04_折多山隧道_整体BIM/tileset.json",
+		"isUnderground": false,
+		"brightness": 1,
+		"scale": [
+			1,
+			1,
+			1
+		]
+	},
+	{
+		"name": "点云_正洞衬砌_20210531",
+		"visible": false,
+		"datastore": "18Ju/DSM",
+		"type": 2,
+		"modelType": 0,
+		"url": "CZSCZQ-3/DSM/3dtiles/点云_正洞衬砌_20210531/tileset.json",
+		"isUnderground": false,
+		"brightness": 1,
+		"scale": [
+			1,
+			1,
+			1
+		]
+	}
+]

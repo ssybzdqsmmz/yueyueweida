@@ -1,0 +1,92 @@
+[
+  {
+    "ViewPoint": {
+      "Orientation": {
+        "heading": 5.792427226862663,
+        "pitch": -1.1271547604418646,
+        "roll": 0.00287052954391509
+      },
+      "Position": {
+        "longitude": 97.2607351,
+        "latitude": 28.2404353,
+        "height": 517677.176768
+      }
+    },
+    "duration": 5
+  },
+  {
+    "ViewPoint": {
+      "Orientation": {
+        "heading": 0.19043618596462686,
+        "pitch": -0.6310507924288364,
+        "roll": 0.00014475394360502492
+      },
+      "Position": {
+        "longitude": 94.3724022,
+        "latitude": 28.3265671,
+        "height": 73786.7822298
+      }
+    },
+    "duration": 5
+  },
+  {
+    "ViewPoint": {
+      "Orientation": {
+        "heading": 6.056208314667269,
+        "pitch": -0.7208611668542031,
+        "roll": 0.00018281162368616322
+      },
+      "Position": {
+        "longitude": 95.238351,
+        "latitude": 28.4736903,
+        "height": 126154.9088007
+      }
+    },
+    "duration": 5
+  },
+  {
+    "ViewPoint": {
+      "Orientation": {
+        "heading": 5.557456535336154,
+        "pitch": -0.7865855057282718,
+        "roll": 0.00018066381685777344
+      },
+      "Position": {
+        "longitude": 96.4889893,
+        "latitude": 28.822424,
+        "height": 163056.0028157
+      }
+    },
+    "duration": 5
+  },
+  {
+    "ViewPoint": {
+      "Orientation": {
+        "heading": 5.06602588117182,
+        "pitch": -0.6618214672596352,
+        "roll": 0.00010516533611593104
+      },
+      "Position": {
+        "longitude": 98.6285914,
+        "latitude": 29.7545882,
+        "height": 160925.5824917
+      }
+    },
+    "duration": 5
+  },
+  {
+    "ViewPoint": {
+      "Orientation": {
+        "heading": 4.832777309266932,
+        "pitch": -0.7910137598838256,
+        "roll": 6.283184895902869
+      },
+      "Position": {
+        "longitude": 99.3780738,
+        "latitude": 30.3764296,
+        "height": 218433.6403963
+      }
+    },
+    "duration": 5
+  }
+]

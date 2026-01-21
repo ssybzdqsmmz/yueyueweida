@@ -1,0 +1,36 @@
+[
+  {
+    "id": "",
+    "uid": "277bc1f5b2e84c209ae010b7d9681e01",
+    "name": "区域地质",
+    "version": "1.0",
+    "customProperty": "CZ",
+    "createTime": "2021-05-13 14:41:02"
+  },
+  {
+    "name": "20240509断裂模型",
+    "visible": true,
+    "datastore": "Geology",
+    "type": 2,
+    "modelType": 0,
+    "url": "FullLine/GEOLOGY/3dtiles/全线断裂模型20240509/tileset.json",
+    "isUnderground": false,
+    "brightness": 1.1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 5000],
+    "saturation": 1
+  },
+  {
+    "name": "全线地质模型",
+    "visible": true,
+    "datastore": "Geology",
+    "type": 2,
+    "modelType": 0,
+    "url": "FullLine/GEOLOGY/3dtiles/全线地质模型/tileset.json",
+    "isUnderground": true,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, -10000],
+    "saturation": 0.5
+  }
+]

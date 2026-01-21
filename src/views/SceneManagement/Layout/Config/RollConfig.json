@@ -1,0 +1,203 @@
+[
+  {
+    "id": "",
+    "uid": "277bc1f5b2e84c209ae010b7d9681e09",
+    "name": "CZSCSQ-2",
+    "version": "1.0",
+    "customProperty": "CZ",
+    "createTime": "2021-05-13 14:41:02"
+  },
+  {
+    "name": "康定二号隧道入口工区正洞DSM_0415",
+    "visible": false,
+    "datastore": "12Ju/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "CZSCZQ-2/DSM/3dtiles/正洞工区DSM_0415_Encrypt/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "康定二号隧道入口工区正洞DSM_0116",
+    "visible": false,
+    "datastore": "12Ju/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "CZSCZQ-2/DSM/3dtiles/正洞工区DSM_0116_Encrypt/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1]
+  },
+  {
+    "name": "康定二号隧道入口工区DSM_202306",
+    "visible": false,
+    "datastore": "12Ju/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "CZSCZQ-2/DSM/3dtiles/康定二号隧道入口DSM_202306/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "康定二号隧道入口工区DSM_202404",
+    "visible": false,
+    "datastore": "12Ju/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "CZSCZQ-2/DSM/3dtiles/康定二号隧道入口DSM_202404/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "康定二号隧道入口工区DSM_202407",
+    "visible": false,
+    "datastore": "12Ju/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "CZSCZQ-2/DSM/3dtiles/康定二号隧道入口工区DSM_202407_5cm/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1]
+  },
+  {
+    "name": "康定二号隧道出口工区_DSM202103",
+    "visible": false,
+    "datastore": "18Ju/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "CZSCZQ-3/DSM/3dtiles/01_出口测区_DSM/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "康定二号隧道出口工区_DSM202104",
+    "visible": false,
+    "datastore": "18Ju/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "CZSCZQ-3/DSM/3dtiles/02_出口测区_DSM_NEW/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "康定二号隧道出口工区_DSM202105",
+    "visible": false,
+    "datastore": "18Ju/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "CZSCZQ-3/DSM/3dtiles/03_出口工区_DSM_最新/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 0]
+  },
+  {
+    "name": "色季拉山DSM202205",
+    "visible": false,
+    "datastore": "SJL/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "SJL/DSM/3dtiles/色季拉山DSM-202205/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1]
+  },
+  {
+    "name": "色季拉山DSM202306",
+    "visible": false,
+    "datastore": "SJL/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "SJL/DSM/3dtiles/色季拉山DSM-202306/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1]
+  },
+  {
+    "name": "色季拉山DSM202307",
+    "visible": false,
+    "datastore": "SJL/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "SJL/DSM/3dtiles/色季拉山DSM-202306融合建模/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1]
+  },
+  {
+    "name": "色季拉山DSM202404",
+    "visible": false,
+    "datastore": "SJL/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "SJL/DSM/3dtiles/色季拉山DSM-202404/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1]
+  },
+  {
+    "name": "色季拉山DSM202407",
+    "visible": false,
+    "datastore": "SJL/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "SJL/DSM/3dtiles/色季拉山DSM-202407TY/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1]
+  },
+  {
+    "name": "大渡河特大桥DSM202205",
+    "visible": false,
+    "datastore": "DDH/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "DDH/DSM/DSM_DaDuHe_Encrypt/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1]
+  },
+  {
+    "name": "大渡河特大桥DSM202207",
+    "visible": false,
+    "datastore": "DDH/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "DDH/DSM/大渡河长安大学osgb/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1]
+  },
+  {
+    "name": "大渡河特大桥DSM",
+    "visible": false,
+    "datastore": "DDH/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "DDH/DSM/大渡河特大桥地理数据/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1]
+  },
+  {
+    "name": "大渡河特大桥DSM202404",
+    "visible": false,
+    "datastore": "DDH/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "DDH/DSM/大渡河特大桥202404/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1]
+  }
+]

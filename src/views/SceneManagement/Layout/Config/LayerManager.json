@@ -1,0 +1,66 @@
+[
+	{
+		"title": "全线级地理地质场景",
+		"topic": "disaster",
+		"children": [
+			{
+				"icon": "cydk",
+				"name": "全线地质灾害场景",
+				"topic": "region"
+			},
+			{
+				"icon": "cydk",
+				"name": "沿线关键点可视化",
+				"topic": "aline"
+			},
+			{
+				"icon": "cydk",
+				"name": "全线隧道风险统计",
+				"topic": "tunnel"
+			}
+		]
+	},
+	{
+		"title": "地理地质环境",
+		"topic": "geology",
+		"children": [
+			{
+				"icon": "cydk",
+				"name": "区域地质环境模型",
+				"topic": "region"
+			},
+			{
+				"icon": "cydk",
+				"name": "工程地质环境模型",
+				"topic": "engineer"
+			},
+			{
+				"icon": "cydk",
+				"name": "施工面地质环境模型",
+				"topic": "construction"
+			}
+		]
+	},
+	{
+		"title": "康定二号入口",
+		"topic": "kd_in",
+		"children": [
+			{
+				"icon": "qlfw",
+				"name": "入口工区",
+				"topic": "base"
+			}
+		]
+	},
+	{
+		"title": "康定二号隧道出口",
+		"topic": "kd_out",
+		"children": [
+			{
+				"icon": "cydk",
+				"name": "出口工区",
+				"topic": "base"
+			}
+		]
+	}
+]

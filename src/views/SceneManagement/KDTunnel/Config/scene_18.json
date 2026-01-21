@@ -1,0 +1,67 @@
+[
+  {
+    "id": "",
+    "uid": "277bc1f5b2e84c209ae010b7d9681e01",
+    "name": "CZSCSQ-2",
+    "version": "1.0",
+    "customProperty": "CZ",
+    "createTime": "2021-05-13 14:41:02"
+  },
+  {
+    "name": "01_出口测区_DSM",
+    "visible": false,
+    "datastore": "18Ju/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "CZSCZQ-3/DSM/3dtiles/01_出口测区_DSM/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 34]
+  },
+  {
+    "name": "02_出口测区_DSM_NEW",
+    "visible": false,
+    "datastore": "18Ju/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "CZSCZQ-3/DSM/3dtiles/02_出口测区_DSM_NEW/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 34]
+  },
+  {
+    "name": "02_出口测区_DSM_NEW",
+    "visible": true,
+    "datastore": "18Ju/DSM",
+    "type": 2,
+    "modelType": 0,
+    "url": "CZSCZQ-3/DSM/3dtiles/03_出口工区_DSM_最新/tileset.json",
+    "isUnderground": false,
+    "brightness": 1,
+    "scale": [1, 1, 1],
+    "translation": [0, 0, 34]
+  },
+  {
+    "name": "DEM",
+    "visible": true,
+    "datastore": "FullLine/DEM",
+    "type": 1,
+    "url": "CZSCZQ-2/DEM/terrain/全线高精度DEM",
+    "lat": 30.0114521,
+    "lon": 101.8309566,
+    "displayView": {
+      "destination": {
+        "x": -1139635.4517111569,
+        "y": 5413886.515950078,
+        "z": 3170926.1099200626
+      },
+      "orientation": {
+        "heading": 5.7498428262740084,
+        "pitch": -0.6490916436812415,
+        "roll": 6.281329249973886
+      }
+    }
+  }
+]
