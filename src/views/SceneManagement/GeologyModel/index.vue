@@ -2,30 +2,30 @@
  * @Author: 枫林残忆
  * @Date: 2024-03-01 09:54:09
  * @LastEditors: fuwei 2567873016@qq.com
- * @LastEditTime: 2025-03-10 10:29:00
- * @FilePath: \Geology-v3\src\views\SceneManagement\GeologyModel\index.vue
+ * @LastEditTime: 2026-01-22 19:00:24
+ * @FilePath: \yueyueweida\src\views\SceneManagement\GeologyModel\index.vue
  * @Description: 
  * Copyright (c) 2024 by VGE, All Rights Reserved. 
 -->
 <script lang="ts" setup>
 import Region from './Component/Region.vue';
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import { useRoute, onBeforeRouteUpdate } from 'vue-router'; //监听页面的查询参数变化
+import { useRoute } from 'vue-router'; //监听页面的查询参数变化
 import EventBus from './Utils/EventBus';
-import { loadWorldOcean, generateKmlConfig, loadFromKmlConfig, controlLayer, loadGaodeMarker, loadOpenStreetMap } from './Utils/Layer';
+import { generateKmlConfig, loadFromKmlConfig, controlLayer } from './Utils/Layer';
 import { loadCenterLine } from './Services/InitScene';
 import { DTScopeEngine } from '@/utils/Common/Viewer';
 import { ipServer, centerLineUrl } from './Services/ServiceProperties';
 import { setCameraViewePoint } from '../Layout/Tools/InitScene';
 import WEventBus from '../Layout/Tools/WEventBus';
 import Tree from './Component/Tree.vue';
-import TreeLayerData from './Config/tree.json';
 import TreeLayerXz from './Config/treeXizang.json';
 import TreeLayerSc from './Config/treeSichuan copy.json';
 import KmlLayerConfig from './Config/kmlLayer.json';
 import LODLabel from './Config/LODLabel.json';
 import * as Cesium from 'Cesium';
 import GeologyMap from './Component/GeologyMap.vue';
+import {loadCWT} from '@/utils/Maps/TerrainSource';
 let TreeLayers = {
   TreeLayerXz,
   TreeLayerSc,
@@ -64,19 +64,6 @@ const itemCallbackMapping = new Map<string, any>([
   ],
 ]);
 
-// onBeforeRouteUpdate((to, from) => {
-//   // 刷新之前的UI状态
-//   if (from.query.item) {
-//     //@ts-ignore
-//     let callback = itemCallbackMapping.get(from.query.item);
-//     callback();
-//   }
-//   // 刷新当前的UI状态
-//   if (to.query.item) {
-//     initScene(to.query.item);
-//   }
-// });
-
 const viewPortMap = new Map([
   [
     'region', //区域级视
@@ -112,7 +99,8 @@ function initScene(item) {
     setCameraViewePoint(DTScopeEngine.viewer, viewPort, 2).then(() => {
       wEventBus.emit('changeGraph', 'LargeScaleGeology'); // 通知图谱显示器，你该加载数据了
     });
-  }
+	}
+	loadCWT(DTScopeEngine.viewer);
 }
 
 function adjustLabel(stationDataSource) {
@@ -166,10 +154,9 @@ onMounted(() => {
       adjustLabel(stationDataSource);
     }, 1000);
 
-    eventBus.once('clearTrash', loadOpenStreetMap(viewer)); // 加载OpenStreetMap
+    // eventBus.once('clearTrash', loadOpenStreetMap(viewer)); // 加载OpenStreetMap
     // loadCWT(viewer);
     // eventBus.once('clearTrash', loadWorldOcean(viewer)); // 清理纯白底图
-    eventBus.once('clearTrash', loadGaodeMarker(viewer)); // 清理高德注记
     eventBus.once('clearTrash', loadCenterLine(viewer, ipServer, centerLineUrl)); // 清理黄色路线
 
     initScene(route.query.item);
@@ -185,8 +172,6 @@ onBeforeUnmount(() => {
 
 <template>
   <Region v-show="regionPanelSwitch"></Region>
-  <!-- <Tree init-layer-name="昌都至林芝地层模型" init-layer-value="fullline_region_model" title="区域地质模型列表" :layer-data="TreeLayerData"></Tree> -->
-  <!-- <Tree init-layer-name="昌都至林芝地层模型" init-layer-value="fullline_region_model" title="区域地质模型列表" :layer-data="TreeLayers"> </Tree> -->
   <Tree init-layer-name="昌都至林芝地层模型" init-layer-value="fullline_region_model" title="区域地质模型列表" :layer-data="TreeLayers"> </Tree>
 	<GeologyMap></GeologyMap>
 </template>

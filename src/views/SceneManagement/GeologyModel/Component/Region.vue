@@ -1,9 +1,9 @@
 <!--
  * @Author: 枫林残忆
  * @Date: 2024-03-01 14:14:24
- * @LastEditors: 枫林残忆 2997534654@qq.com
- * @LastEditTime: 2024-04-09 09:38:33
- * @FilePath: \Geology-V3\src\views\SceneManagement\GeologyModel\Component\Region.vue
+ * @LastEditors: fuwei 2567873016@qq.com
+ * @LastEditTime: 2026-01-22 20:35:47
+ * @FilePath: \yueyueweida\src\views\SceneManagement\GeologyModel\Component\Region.vue
  * @Description: 
  * Copyright (c) 2024 by VGE, All Rights Reserved. 
 -->
@@ -101,24 +101,7 @@ let emit = defineEmits(['closeWidget']);
 
 <template>
   <div>
-    <div v-if="roamPanel" class="disaster-panel">
-      <div class="disaster-panel-title">
-        <span>场景功能</span>
-        <span
-          @click="
-            () => {
-              roamPanel = !roamPanel;
-            }
-          "
-          class="close-btn"
-        ></span>
-      </div>
-      <div @click="changeDisaster('roaming')" class="disaster-panel-item">
-        <div class="disaster-panel-item-bg">地质模型漫游</div>
-        <!-- <div class="disaster-panel-item-title">地质模型漫游</div> -->
-      </div>
-    </div>
-    <Legend></Legend>
+    <!-- <Legend></Legend> -->
   </div>
 </template>
 

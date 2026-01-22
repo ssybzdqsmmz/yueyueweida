@@ -18,7 +18,7 @@ export interface GeologyGroup {
 
 // 创建Cesium Viewer
 export function createCesiumViewer(containerId: string): Viewer {
-	Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3YzFkM2YzYi1iMTM4LTQyMzctYjBkNi1iM2UwNmQwY2YwYzgiLCJpZCI6MTg2MDg0LCJpYXQiOjE3MDY4NTY3ODh9.Wq4jXmN2q1mUwvz4c5L8q9r1k0wv4c5L8q9r1k0wv4c';
+	Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkODgzMmY3OC0yZDRmLTRjNjQtYTBlMi03OGRkZTBmY2M4YjIiLCJpZCI6MTQyNDMzLCJpYXQiOjE3NTA5MzM2MTB9.9z-CeiRJ3ct4NJCyFPnvvRCyFNqVtUsJXxwgi1OpHzk';
 
 	return new Cesium.Viewer(containerId, {
 		terrainProvider: Cesium.createWorldTerrain(),

@@ -1,8 +1,8 @@
 <!--
  * @Date: 2023-03-01 12:57:59
  * @LastEditors: fuwei 2567873016@qq.com
- * @LastEditTime: 2025-06-23 17:36:14
- * @FilePath: \Geology-v3\src\views\SceneManagement\3DScene.vue
+ * @LastEditTime: 2026-01-22 10:03:54
+ * @FilePath: \yueyueweida\src\views\SceneManagement\3DScene.vue
 -->
 <template>
   <div id="main">
@@ -15,7 +15,7 @@
     <RollShutter v-if="rollBtn"></RollShutter>
     <TerrainExcave v-if="terrainBtn"></TerrainExcave>
     <Application v-if="appBtn"></Application>
-    <el-button class="home-btn" @click="backToGlobe"></el-button>
+    <!-- <el-button class="home-btn" @click="backToGlobe"></el-button> -->
     <DTGlobe />
     <!-- <OriginCesiumVoxel></OriginCesiumVoxel> -->
     <RouterView />
